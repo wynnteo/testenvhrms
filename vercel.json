@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/admin", "destination": "/admin.html" }
+  "routes": [
+    { "src": "/odata/v2/User", "dest": "/api/users" },
+    { "src": "/admin",         "dest": "/admin.html" },
+    { "src": "/api/(.*)",      "dest": "/api/$1" },
+    { "src": "/(.*)",          "dest": "/$1" }
   ]
 }

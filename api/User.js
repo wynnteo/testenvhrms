@@ -1,9 +1,7 @@
-// api/odata/v2/User.js
-// Emulates SuccessFactors OData v2 /User endpoint — returns Atom XML feed.
+// api/users.js
+import { readEmployees } from "../lib/github-store.js";
 
-import { readEmployees } from "../../../lib/github-store.js";
-
-const BASE_URL = "https://api10preview.sapsf.com";
+const SF_BASE = "https://api10preview.sapsf.com";
 
 function esc(s = "") {
   return String(s)
@@ -15,8 +13,8 @@ function esc(s = "") {
 
 function parseISO(s) {
   if (!s) return null;
-  const d = new Date(s.replace("Z", "").replace(" ", "T"));
-  return isNaN(d) ? null : d;
+  const d = new Date(s.includes("T") ? s : s + "T00:00:00");
+  return isNaN(d.getTime()) ? null : d;
 }
 
 function applyFilters(employees, query) {
@@ -31,17 +29,16 @@ function applyFilters(employees, query) {
   });
 
   const total = result.length;
-  const skip  = Math.max(0, parseInt(query["$skip"] || query.skip || "0", 10));
-  const top   = parseInt(query["$top"]  || query.top  || String(result.length), 10);
+  const skip  = Math.max(0, parseInt(query["$skip"] || "0", 10));
+  const top   = parseInt(query["$top"] || String(result.length), 10);
   result = result.slice(skip, skip + top);
   return { result, total };
 }
 
 function buildXML(employees, totalCount) {
   const now = new Date().toISOString().replace(/\.\d+Z$/, "Z");
-
   const entries = employees.map(emp => `  <entry>
-    <id>${BASE_URL}/odata/v2/User('${esc(emp.userId)}')</id>
+    <id>${SF_BASE}/odata/v2/User('${esc(emp.userId)}')</id>
     <title type="text"></title>
     <updated>${now}</updated>
     <author><name></name></author>
@@ -64,9 +61,9 @@ function buildXML(employees, totalCount) {
 <feed xmlns="http://www.w3.org/2005/Atom"
       xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
       xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
-      xml:base="${BASE_URL}/odata/v2/">
+      xml:base="${SF_BASE}/odata/v2/">
   <title type="text">User</title>
-  <id>${BASE_URL}/odata/v2/User</id>
+  <id>${SF_BASE}/odata/v2/User</id>
   <updated>${now}</updated>
   <link rel="self" title="User" href="User"></link>
   <m:count>${totalCount}</m:count>
@@ -75,18 +72,23 @@ ${entries}
 }
 
 export default async function handler(req, res) {
+  console.log("OData handler hit:", req.method, req.url, req.query);
+
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
   if (req.method !== "GET") {
     return res.status(405).json({ error: "Method not allowed" });
   }
-
   try {
     const { employees } = await readEmployees();
+    console.log(`Loaded ${employees.length} employees`);
     const { result, total } = applyFilters(employees, req.query);
     const xml = buildXML(result, total);
     res.setHeader("Content-Type", "application/xml;charset=utf-8");
     return res.status(200).send(xml);
   } catch (err) {
     console.error("OData error:", err);
-    return res.status(500).json({ error: err.message });
+    res.setHeader("Content-Type", "application/xml;charset=utf-8");
+    return res.status(500).send(`<?xml version="1.0"?><error>${esc(err.message)}</error>`);
   }
 }
