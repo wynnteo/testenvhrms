@@ -94,8 +94,8 @@
     "firstName": "MINLIANG",
     "lastName": "MUHD",
     "email": "dummy@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-05-17T19:12:00",
+    "status": "f",
+    "lastModified": "2026-05-29T14:12:52",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
