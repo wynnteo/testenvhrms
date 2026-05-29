@@ -161,8 +161,7 @@
 <script>
   // Show endpoint URL
   document.getElementById("endpoint-box").textContent =
-    `GET ${location.origin}/odata/v2/User?$top=50&$skip=0\n\n` +
-    `// In your SSM config:\n"base_url": "${location.origin}"`;
+    `GET ${location.origin}/odata/v2/User?$top=50&$skip=0\n\n`;
 
   function flash(msg, ok = true) {
     const el = document.getElementById("flash");
@@ -224,7 +223,7 @@
       });
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
-      flash("✅ " + data.message);
+      flash("" + data.message);
       await loadEmployees();
     } catch (err) {
       flash("❌ " + err.message, false);
@@ -255,7 +254,7 @@
       });
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
-      flash("✅ " + data.message);
+      flash("" + data.message);
       // clear form
       ["f-userId","f-firstName","f-lastName"].forEach(id =>
         document.getElementById(id).value = "");
