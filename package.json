@@ -1,0 +1,6 @@
+{
+  "name": "mock-successfactors",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mock SuccessFactors OData endpoint for testing"
+}

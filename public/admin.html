@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mock SuccessFactors Admin</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #f0f4f8; color: #1a202c; min-height: 100vh; }
+
+  header { background: #1a56db; color: white; padding: 14px 32px;
+           display: flex; align-items: center; gap: 12px; }
+  header h1 { font-size: 1.15rem; font-weight: 600; }
+  .tag { font-size: 0.75rem; background: rgba(255,255,255,0.2);
+         padding: 3px 10px; border-radius: 20px; }
+
+  main { max-width: 1100px; margin: 28px auto; padding: 0 16px; display: grid; gap: 22px; }
+
+  .card { background: white; border-radius: 12px;
+          box-shadow: 0 1px 4px rgba(0,0,0,.08); padding: 22px; }
+  .card h2 { font-size: 0.95rem; font-weight: 600; color: #2d3748;
+             padding-bottom: 12px; margin-bottom: 16px;
+             border-bottom: 1px solid #e2e8f0; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .full  { grid-column: 1 / -1; }
+  label  { display: block; font-size: 0.78rem; font-weight: 600;
+           color: #4a5568; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .4px; }
+  input  { width: 100%; padding: 8px 11px; border: 1px solid #cbd5e0;
+           border-radius: 6px; font-size: 0.88rem; transition: border-color .15s; }
+  input:focus { outline: none; border-color: #1a56db;
+                box-shadow: 0 0 0 3px rgba(26,86,219,.12); }
+
+  .btn { padding: 8px 18px; border: none; border-radius: 6px; font-size: 0.85rem;
+         font-weight: 600; cursor: pointer; transition: all .15s; white-space: nowrap; }
+  .btn-primary { background: #1a56db; color: white; }
+  .btn-primary:hover { background: #1446b5; }
+  .btn-warn    { background: #d69e2e; color: white; }
+  .btn-warn:hover    { background: #b7791f; }
+  .btn-danger  { background: #e53e3e; color: white; }
+  .btn-danger:hover  { background: #c53030; }
+  .btn-green   { background: #38a169; color: white; }
+  .btn-green:hover   { background: #276749; }
+  .btn-sm { padding: 5px 12px; font-size: 0.78rem; }
+
+  .flash { padding: 10px 16px; border-radius: 8px; font-size: 0.88rem;
+           display: none; margin-bottom: 4px; }
+  .flash.show { display: block; }
+  .flash.ok  { background: #c6f6d5; color: #276749; }
+  .flash.err { background: #fed7d7; color: #9b2c2c; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  thead th { background: #f7fafc; padding: 10px 12px; text-align: left;
+             font-weight: 700; color: #4a5568; font-size: 0.78rem;
+             text-transform: uppercase; letter-spacing: .4px;
+             border-bottom: 2px solid #e2e8f0; }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid #edf2f7; vertical-align: middle; }
+  tbody tr:hover td { background: #f7fafc; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 20px;
+           font-size: 0.75rem; font-weight: 700; }
+  .badge-active   { background: #c6f6d5; color: #276749; }
+  .badge-inactive { background: #fed7d7; color: #9b2c2c; }
+
+  .actions { display: flex; gap: 6px; flex-wrap: wrap; }
+  code { background: #edf2f7; padding: 2px 7px; border-radius: 4px;
+         font-size: 0.82rem; font-family: 'SF Mono', Consolas, monospace; }
+  .endpoint-box { background: #1a202c; color: #68d391; padding: 14px 18px;
+                  border-radius: 8px; font-family: 'SF Mono', Consolas, monospace;
+                  font-size: 0.82rem; word-break: break-all; line-height: 1.6; }
+  .spinner { display: inline-block; width: 16px; height: 16px;
+             border: 2px solid rgba(255,255,255,.3); border-top-color: white;
+             border-radius: 50%; animation: spin .6s linear infinite; vertical-align: middle; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-row td { text-align: center; padding: 32px; color: #718096; }
+  @media(max-width:600px){ .grid2 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🏗️ Mock SuccessFactors</h1>
+  <span class="tag">Testing Environment</span>
+</header>
+
+<main>
+
+  <div id="flash" class="flash"></div>
+
+  <!-- Hire form -->
+  <div class="card">
+    <h2>➕ Hire New Employee</h2>
+    <div class="grid2">
+      <div>
+        <label>User ID *</label>
+        <input id="f-userId" placeholder="e.g. 9990001">
+      </div>
+      <div>
+        <label>Email</label>
+        <input id="f-email" value="dummy@successfactors.com">
+      </div>
+      <div>
+        <label>First Name *</label>
+        <input id="f-firstName" placeholder="e.g. John">
+      </div>
+      <div>
+        <label>Last Name *</label>
+        <input id="f-lastName" placeholder="e.g. Smith">
+      </div>
+      <div class="full">
+        <label>Company (custom05)</label>
+        <input id="f-custom05" value="NTUC LearningHub Pte Ltd (L100)">
+      </div>
+    </div>
+    <br>
+    <button class="btn btn-primary" id="btn-hire" onclick="hireEmployee()">
+      Hire Employee
+    </button>
+  </div>
+
+  <!-- Employee table -->
+  <div class="card">
+    <h2 id="table-heading">👥 Employee List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Last Modified</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="emp-tbody">
+        <tr class="loading-row">
+          <td colspan="6"><span class="spinner"></span> Loading employees…</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Endpoint info -->
+  <div class="card">
+    <h2>🔗 OData Endpoint — point your Lambda here</h2>
+    <p style="font-size:0.83rem;color:#718096;margin-bottom:10px;">
+      Change only <code>base_url</code> in your SSM config. The path <code>/odata/v2/User</code> stays the same.
+    </p>
+    <div class="endpoint-box" id="endpoint-box">Loading…</div>
+    <br>
+    <p style="font-size:0.82rem;color:#718096;">
+      Supported params: <code>$top</code> &nbsp;<code>$skip</code> &nbsp;
+      <code>modifiedfrom</code> &nbsp;<code>modifiedto</code>
+    </p>
+  </div>
+
+</main>
+
+<script>
+  // Show endpoint URL
+  document.getElementById("endpoint-box").textContent =
+    `GET ${location.origin}/odata/v2/User?$top=50&$skip=0\n\n` +
+    `// In your SSM config:\n"base_url": "${location.origin}"`;
+
+  function flash(msg, ok = true) {
+    const el = document.getElementById("flash");
+    el.textContent = msg;
+    el.className = "flash show " + (ok ? "ok" : "err");
+    setTimeout(() => el.className = "flash", 4000);
+  }
+
+  async function loadEmployees() {
+    try {
+      const res = await fetch("/api/admin/employees");
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error);
+      renderTable(data.employees);
+      document.getElementById("table-heading").textContent =
+        `👥 Employee List (${data.employees.length} records)`;
+    } catch (err) {
+      document.getElementById("emp-tbody").innerHTML =
+        `<tr class="loading-row"><td colspan="6" style="color:#e53e3e">Error: ${err.message}</td></tr>`;
+    }
+  }
+
+  function renderTable(employees) {
+    const tbody = document.getElementById("emp-tbody");
+    if (!employees.length) {
+      tbody.innerHTML = `<tr class="loading-row"><td colspan="6">No employees yet.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = employees.map(emp => `
+      <tr>
+        <td><code>${emp.userId}</code></td>
+        <td>${emp.firstName} ${emp.lastName}</td>
+        <td style="color:#718096">${emp.email}</td>
+        <td style="color:#718096">${emp.lastModified}</td>
+        <td>
+          <span class="badge ${emp.status === 't' ? 'badge-active' : 'badge-inactive'}">
+            ${emp.status === 't' ? 'Active' : 'Terminated'}
+          </span>
+        </td>
+        <td class="actions">
+          ${emp.status === 't'
+            ? `<button class="btn btn-warn btn-sm" onclick="doAction('terminate','${emp.userId}','Terminate ${emp.firstName}?')">Terminate</button>`
+            : `<button class="btn btn-green btn-sm" onclick="doAction('activate','${emp.userId}')">Re-hire</button>`
+          }
+          <button class="btn btn-danger btn-sm"
+            onclick="doAction('delete','${emp.userId}','Permanently delete ${emp.firstName}?')">Delete</button>
+        </td>
+      </tr>
+    `).join("");
+  }
+
+  async function doAction(action, userId, confirmMsg) {
+    if (confirmMsg && !confirm(confirmMsg)) return;
+    try {
+      const res = await fetch("/api/admin/action", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action, userId }),
+      });
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error);
+      flash("✅ " + data.message);
+      await loadEmployees();
+    } catch (err) {
+      flash("❌ " + err.message, false);
+    }
+  }
+
+  async function hireEmployee() {
+    const userId    = document.getElementById("f-userId").value.trim();
+    const firstName = document.getElementById("f-firstName").value.trim();
+    const lastName  = document.getElementById("f-lastName").value.trim();
+    const email     = document.getElementById("f-email").value.trim();
+    const custom05  = document.getElementById("f-custom05").value.trim();
+
+    if (!userId || !firstName || !lastName) {
+      flash("❌ User ID, First Name and Last Name are required.", false);
+      return;
+    }
+
+    const btn = document.getElementById("btn-hire");
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Hiring…';
+
+    try {
+      const res = await fetch("/api/admin/action", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "add", userId, firstName, lastName, email, custom05 }),
+      });
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error);
+      flash("✅ " + data.message);
+      // clear form
+      ["f-userId","f-firstName","f-lastName"].forEach(id =>
+        document.getElementById(id).value = "");
+      await loadEmployees();
+    } catch (err) {
+      flash("❌ " + err.message, false);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Hire Employee";
+    }
+  }
+
+  // Load on page ready
+  loadEmployees();
+</script>
+</body>
+</html>

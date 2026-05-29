@@ -1,99 +1,100 @@
-# Mock SuccessFactors OData Server
+# Mock SuccessFactors — Vercel + GitHub Storage
 
-A lightweight Flask app that emulates the SuccessFactors OData v2 `/User` endpoint
-for testing purposes. Data is persisted in a plain JSON `.txt` file — no database needed.
+Emulates the SuccessFactors OData v2 `/User` endpoint for testing.
+Employee data is stored as `employees.txt` in **this same GitHub repo** — no database, no card needed.
 
 ---
 
-## 🚀 Deploy to Render.com (Free)
+## 🚀 Setup (one-time, ~5 minutes)
 
-1. Push this folder to a **GitHub repo** (public or private).
-2. Go to [render.com](https://render.com) → **New → Blueprint**.
-3. Connect your repo — Render will detect `render.yaml` automatically.
-4. Click **Apply**. Your service will be live in ~2 minutes.
-5. Note your URL, e.g. `https://mock-successfactors.onrender.com`
+### Step 1 — Push to GitHub
+Create a new GitHub repo and push all these files to it.
 
-> ⚠️ Free Render instances spin down after 15 min of inactivity.
-> First request after sleep takes ~30s. Upgrade to Starter ($7/mo) to avoid this.
+### Step 2 — Generate a GitHub Token
+1. GitHub → **Settings → Developer settings → Personal access tokens → Fine-grained tokens**
+2. Click **Generate new token**
+3. Set expiry (e.g. 1 year)
+4. Under **Repository access** → select **Only select repositories** → pick this repo
+5. Under **Permissions → Repository permissions**:
+   - **Contents** → `Read and write`
+6. Click **Generate token** and copy it
+
+### Step 3 — Deploy to Vercel
+1. Go to [vercel.com](https://vercel.com) → **Add New Project**
+2. Import your GitHub repo
+3. Click **Deploy** (no build settings needed)
+
+### Step 4 — Add Environment Variables in Vercel
+Go to your project → **Settings → Environment Variables** and add:
+
+| Key | Value |
+|-----|-------|
+| `GITHUB_TOKEN` | your fine-grained token from Step 2 |
+| `GITHUB_REPO` | `yourname/your-repo-name` |
+| `GITHUB_BRANCH` | `main` |
+
+Then go to **Deployments → Redeploy** (so the env vars take effect).
 
 ---
 
 ## 🔧 Point Your Lambda at the Mock
 
-In your SSM config for the org, change **`base_url`** only:
+In SSM config, change **only `base_url`**:
 
 ```json
 {
-  "base_url": "https://mock-successfactors.onrender.com",
+  "base_url": "https://your-project.vercel.app",
   "odata": {
-    "endpoint": "/odata/v2/User",
-    ...
+    "endpoint": "/odata/v2/User"
   }
 }
 ```
 
-Everything else stays the same. The Lambda will call:
+Your Lambda will call:
 ```
-GET https://mock-successfactors.onrender.com/odata/v2/User?$top=50&$skip=0
+GET https://your-project.vercel.app/odata/v2/User?$top=50&$skip=0
 ```
 
 ---
 
 ## 🖥️ Admin UI
 
-Visit `/admin` to manage employees:
+Visit `https://your-project.vercel.app/admin`
 
-| Action | Description |
+| Action | What it does |
 |--------|-------------|
-| **Hire** | Adds a new employee (status = `t`) with today's `lastModified` |
-| **Terminate** | Sets status to `f`, bumps `lastModified` to now |
-| **Re-hire** | Sets status back to `t` |
+| **Hire** | Adds employee with `status: t`, sets `lastModified` to now |
+| **Terminate** | Sets `status: f`, bumps `lastModified` to now |
+| **Re-hire** | Sets `status: t` back |
 | **Delete** | Removes the record entirely |
 
----
-
-## 🔗 OData Endpoint
-
-```
-GET /odata/v2/User
-```
-
-**Query Parameters:**
-
-| Param | Example | Notes |
-|-------|---------|-------|
-| `$top` | `50` | Page size |
-| `$skip` | `0` | Offset (page_number-1 * page_size) |
-| `modifiedfrom` | `2026-05-01T00:00:00Z` | Filter by lastModified >= |
-| `modifiedto` | `2026-05-31T23:59:59Z` | Filter by lastModified <= |
-
-**Response:** Atom XML feed identical to real SuccessFactors OData v2.
+> `lastModified` is always updated on any change, so your Lambda's `modifiedfrom`/`modifiedto` delta filters will pick up changes correctly.
 
 ---
 
-## 🏃 Run Locally
+## 📁 File Structure
 
-```bash
-pip install -r requirements.txt
-DATA_FILE=employees.txt python app.py
-# → http://localhost:5000/admin
-# → http://localhost:5000/odata/v2/User
+```
+├── api/
+│   ├── odata/v2/User.js       ← OData XML endpoint (what Lambda calls)
+│   └── admin/
+│       ├── employees.js       ← Returns employee list as JSON
+│       └── action.js          ← Hire / terminate / activate / delete
+├── lib/
+│   └── github-store.js        ← Reads/writes employees.txt via GitHub API
+├── public/
+│   └── admin.html             ← Admin UI
+├── vercel.json
+└── package.json
 ```
 
 ---
 
-## 📁 File Storage
+## 🔍 How GitHub Storage Works
 
-Employee data is stored in a single JSON file (`employees.txt`).
-On Render, this is on a persistent 1 GB disk at `/var/data/employees.txt`.
-If the file doesn't exist on first boot, seed data from your sample XML is loaded automatically.
+Every read/write goes through the GitHub Contents API:
+- **Read**: `GET /repos/{owner}/{repo}/contents/employees.txt`
+- **Write**: `PUT /repos/{owner}/{repo}/contents/employees.txt` (with SHA for optimistic locking)
 
----
-
-## 🔑 Environment Variables
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `DATA_FILE` | `employees.txt` | Path to the JSON storage file |
-| `ADMIN_TOKEN` | `admin-secret-token` | (Reserved for future auth on admin routes) |
-| `PORT` | `5000` | Port to listen on (set automatically by Render) |
+The file `employees.txt` will appear in your repo root after the first write.
+You can also edit it directly on GitHub as a manual escape hatch.
