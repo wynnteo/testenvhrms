@@ -2,93 +2,72 @@
 import { readEmployees } from "../lib/github-store.js";
 
 const SF_BASE = "https://api10preview.sapsf.com";
-
-function esc(s = "") {
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
+ 
 function parseISO(s) {
   if (!s) return null;
   const d = new Date(s.includes("T") ? s : s + "T00:00:00");
   return isNaN(d.getTime()) ? null : d;
 }
-
+ 
+function toSFDate(isoStr) {
+  // Convert "2026-05-12T19:11:50" → "\/Date(1747077110000)\/"
+  const d = parseISO(isoStr);
+  if (!d) return `\/Date(0)\/`;
+  return `\/Date(${d.getTime()})\/`;
+}
+ 
 function applyFilters(employees, query) {
   const dtFrom = parseISO(query.modifiedfrom || query.modified_from);
   const dtTo   = parseISO(query.modifiedto   || query.modified_to);
-
+ 
   let result = employees.filter(emp => {
     const lm = parseISO(emp.lastModified);
     if (dtFrom && lm && lm < dtFrom) return false;
     if (dtTo   && lm && lm > dtTo)   return false;
     return true;
   });
-
+ 
   const total = result.length;
   const skip  = Math.max(0, parseInt(query["$skip"] || "0", 10));
   const top   = parseInt(query["$top"] || String(result.length), 10);
   result = result.slice(skip, skip + top);
   return { result, total };
 }
-
-function buildXML(employees, totalCount) {
-  const now = new Date().toISOString().replace(/\.\d+Z$/, "Z");
-  const entries = employees.map(emp => `  <entry>
-    <id>${SF_BASE}/odata/v2/User('${esc(emp.userId)}')</id>
-    <title type="text"></title>
-    <updated>${now}</updated>
-    <author><name></name></author>
-    <link rel="edit" title="User" href="User('${esc(emp.userId)}')"></link>
-    <category term="SFOData.User" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"></category>
-    <content type="application/xml">
-      <m:properties>
-        <d:userId>${esc(emp.userId)}</d:userId>
-        <d:firstName>${esc(emp.firstName)}</d:firstName>
-        <d:lastName>${esc(emp.lastName)}</d:lastName>
-        <d:custom05>${esc(emp.custom05)}</d:custom05>
-        <d:lastModified m:type="Edm.DateTime">${esc(emp.lastModified)}</d:lastModified>
-        <d:email>${esc(emp.email)}</d:email>
-        <d:status>${esc(emp.status)}</d:status>
-      </m:properties>
-    </content>
-  </entry>`).join("\n");
-
-  return `<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-      xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
-      xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
-      xml:base="${SF_BASE}/odata/v2/">
-  <title type="text">User</title>
-  <id>${SF_BASE}/odata/v2/User</id>
-  <updated>${now}</updated>
-  <link rel="self" title="User" href="User"></link>
-  <m:count>${totalCount}</m:count>
-${entries}
-</feed>`;
+ 
+function buildJSON(employees) {
+  const results = employees.map(emp => ({
+    __metadata: {
+      uri:  `${SF_BASE}/odata/v2/User('${emp.userId}')`,
+      type: "SFOData.User",
+    },
+    userId:       emp.userId,
+    firstName:    emp.firstName,
+    lastName:     emp.lastName,
+    custom05:     emp.custom05,
+    lastModified: toSFDate(emp.lastModified),
+    email:        emp.email,
+    status:       emp.status,
+  }));
+ 
+  return { d: { results } };
 }
-
+ 
 export default async function handler(req, res) {
   console.log("OData handler hit:", req.method, req.url, req.query);
-
   res.setHeader("Access-Control-Allow-Origin", "*");
-
+ 
   if (req.method !== "GET") {
     return res.status(405).json({ error: "Method not allowed" });
   }
+ 
   try {
     const { employees } = await readEmployees();
     console.log(`Loaded ${employees.length} employees`);
-    const { result, total } = applyFilters(employees, req.query);
-    const xml = buildXML(result, total);
-    res.setHeader("Content-Type", "application/xml;charset=utf-8");
-    return res.status(200).send(xml);
+    const { result } = applyFilters(employees, req.query);
+    res.setHeader("Content-Type", "application/json;charset=utf-8");
+    return res.status(200).json(buildJSON(result));
   } catch (err) {
     console.error("OData error:", err);
-    res.setHeader("Content-Type", "application/xml;charset=utf-8");
-    return res.status(500).send(`<?xml version="1.0"?><error>${esc(err.message)}</error>`);
+    return res.status(500).json({ error: err.message });
   }
 }
