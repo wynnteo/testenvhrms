@@ -144,14 +144,10 @@
 
   <!-- Endpoint info -->
   <div class="card">
-    <h2>🔗 OData Endpoint — point your Lambda here</h2>
-    <p style="font-size:0.83rem;color:#718096;margin-bottom:10px;">
-      Change only <code>base_url</code> in your SSM config. The path <code>/odata/v2/User</code> stays the same.
-    </p>
     <div class="endpoint-box" id="endpoint-box">Loading…</div>
     <br>
     <p style="font-size:0.82rem;color:#718096;">
-      Supported params: <code>$top</code> &nbsp;<code>$skip</code> &nbsp;
+      Params: <code>$top</code> &nbsp;<code>$skip</code> &nbsp;
       <code>modifiedfrom</code> &nbsp;<code>modifiedto</code>
     </p>
   </div>
@@ -161,7 +157,7 @@
 <script>
   // Show endpoint URL
   document.getElementById("endpoint-box").textContent =
-    `GET ${location.origin}/odata/v2/User?$top=50&$skip=0\n\n`;
+    `GET ${location.origin}/api/User?$top=50&$skip=0&modifiedfrom=2026-01-01&modifiedto=2026-05-31\n\n`;
 
   function flash(msg, ok = true) {
     const el = document.getElementById("flash");
