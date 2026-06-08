@@ -6445,8 +6445,8 @@
   },
   {
     "userId": "3013060",
-    "firstName": "TAN AH HONG",
-    "lastName": "",
+    "firstName": "AH HONG",
+    "lastName": "TAN",
     "email": "eldwin.tan2@ncs.com.sg",
     "status": "t",
     "lastModified": "2026-06-08T09:56:49",
@@ -6454,8 +6454,8 @@
   },
   {
     "userId": "3013061",
-    "firstName": "ALFONSO CRUZ",
-    "lastName": "",
+    "firstName": "CRUZ",
+    "lastName": "ALFONSO",
     "email": "rowena.yeo@ntuclhub.com",
     "status": "t",
     "lastModified": "2026-06-08T09:56:49",
@@ -6463,8 +6463,8 @@
   },
   {
     "userId": "3013062",
-    "firstName": "ALFRED CHONG BOON HAO",
-    "lastName": "",
+    "firstName": "BOON HAO",
+    "lastName": "ALFRED CHONG",
     "email": "nicholas.quek@ncs.com.sg",
     "status": "t",
     "lastModified": "2026-06-08T09:56:49",
