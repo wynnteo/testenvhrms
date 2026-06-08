@@ -565,5 +565,14 @@
     "status": "t",
     "lastModified": "2026-06-02T12:08:22",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3015051",
+    "firstName": "ALFONSO",
+    "lastName": "CRUZ",
+    "email": "rowena.yeo@ntuclhub.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-06-08T07:01:17"
   }
 ]
