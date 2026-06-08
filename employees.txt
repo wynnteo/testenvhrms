@@ -1,11 +1,4124 @@
 [
   {
-    "userId": "3010190",
-    "firstName": "MOY CHAI",
-    "lastName": "Leo",
+    "userId": "1109295",
+    "firstName": "Yun Ji Andrew",
+    "lastName": "CECILIA ANBUKELE",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-05-12T19:11:50",
+    "lastModified": "2026-05-26T23:00:31",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350002",
+    "firstName": "Gui Hong",
+    "lastName": "MAUNG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350003",
+    "firstName": "HAY YANG",
+    "lastName": "Azhar",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350004",
+    "firstName": "Chin Soon",
+    "lastName": "MUHAMMAD FIRAS ZAFRAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350006",
+    "firstName": "YOKE HAR",
+    "lastName": "LUZON",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350008",
+    "firstName": "Brayvis Zhikai",
+    "lastName": "Hiew",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350011",
+    "firstName": "TUN LIN",
+    "lastName": "WONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350012",
+    "firstName": "BEE LAN",
+    "lastName": "SIOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350013",
+    "firstName": "Cyrus",
+    "lastName": "LOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350014",
+    "firstName": "Rui Peng",
+    "lastName": "Wu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350015",
+    "firstName": "GAIZHEN",
+    "lastName": "Liu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350016",
+    "firstName": "CHUN HENG",
+    "lastName": "NAFISAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350017",
+    "firstName": "Natarajan",
+    "lastName": "GUO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350018",
+    "firstName": "Wah En (Jonathan)",
+    "lastName": "Yeo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350019",
+    "firstName": "Yongheng",
+    "lastName": "Phua",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350020",
+    "firstName": "Choon Seng",
+    "lastName": "XU",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350021",
+    "firstName": "BERNARDETTE LIM SU-LENG",
+    "lastName": "Syed Mohamed Mustaza",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350022",
+    "firstName": "Anggraini",
+    "lastName": "MOK",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350023",
+    "firstName": "LEE SEN",
+    "lastName": ".",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350024",
+    "firstName": "@KONG WILFRED",
+    "lastName": "YAP",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350025",
+    "firstName": "Katrina Maye",
+    "lastName": "KWEK",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350026",
+    "firstName": "KWEE GUEK",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350027",
+    "firstName": "Yuan Soon Derek",
+    "lastName": "Md Dawi",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350028",
+    "firstName": "Xiang Yi",
+    "lastName": "Kwek",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350029",
+    "firstName": "KIM ENG",
+    "lastName": "Mohamad Raze",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350030",
+    "firstName": "Eng Beng",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-06-04T07:01:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350031",
+    "firstName": "YAN YEE",
+    "lastName": "TEO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350033",
+    "firstName": "Hailey En Xin",
+    "lastName": "Ee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350037",
+    "firstName": "Yourong Sophie",
+    "lastName": "Leong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350038",
+    "firstName": "Wee Teck",
+    "lastName": "CHEOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350041",
+    "firstName": "Nurshafiqah Binti",
+    "lastName": "Teo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350043",
+    "firstName": "HUI EN",
+    "lastName": "QUEK",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350044",
+    "firstName": "Ahmad",
+    "lastName": "Soon Huat",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350047",
+    "firstName": "Krishanaveni D/o",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-06-04T07:01:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350050",
+    "firstName": "SER",
+    "lastName": "Tai Liang Yun",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350053",
+    "firstName": "Norfairul Azwan Bin",
+    "lastName": "Sivadass",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350057",
+    "firstName": "Kunarani D/o",
+    "lastName": "KUMARES",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350068",
+    "firstName": ".",
+    "lastName": "Lechmanan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350077",
+    "firstName": "Tirumalai",
+    "lastName": "ANTONY SAMY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350088",
+    "firstName": "Poh Ai",
+    "lastName": "Ramulu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350093",
+    "firstName": "Geok Yian",
+    "lastName": "Zhao",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350095",
+    "firstName": "Hisahmudin",
+    "lastName": "YENNY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350096",
+    "firstName": "Santi",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350098",
+    "firstName": "Kah Ling",
+    "lastName": "CAI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350101",
+    "firstName": "Jacob",
+    "lastName": "TAI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350105",
+    "firstName": "Ai Kheng",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350108",
+    "firstName": "Nuraeni",
+    "lastName": "CHUA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350109",
+    "firstName": "Yak Kwee",
+    "lastName": "CECILIA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350110",
+    "firstName": "Mikaela",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350112",
+    "firstName": "Sun Sun",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350113",
+    "firstName": "Bee Lian",
+    "lastName": "KOH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350114",
+    "firstName": "HARK LIANG",
+    "lastName": "Toh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350118",
+    "firstName": "SEA CHEAK",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350119",
+    "firstName": "Bee Soon",
+    "lastName": "KOI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350120",
+    "firstName": "JIA YI",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350121",
+    "firstName": "D/O JEGATHEESAN",
+    "lastName": "Pathmanathan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:00:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350122",
+    "firstName": "Bee Leng",
+    "lastName": "Nur Sabrina",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:00:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350124",
+    "firstName": "Intrepido",
+    "lastName": "L Sivaperumal",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350125",
+    "firstName": "Chian Seok (Sally)",
+    "lastName": "LEONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350126",
+    "firstName": "Thi Bich Ly",
+    "lastName": "Al-Matari",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350127",
+    "firstName": "Yoke Kuen",
+    "lastName": "Puvaneswary",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350130",
+    "firstName": "Yunita",
+    "lastName": "LO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350131",
+    "firstName": "BIN JIMMIN",
+    "lastName": "Muhammad Khaleff",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350132",
+    "firstName": "Kah Hwi",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350133",
+    "firstName": "Waheda",
+    "lastName": "ENGELBERT",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350136",
+    "firstName": null,
+    "lastName": "Ang",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350139",
+    "firstName": "Nathiya",
+    "lastName": "Chan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350142",
+    "firstName": "Aditi",
+    "lastName": "Min Xuan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350143",
+    "firstName": "Jia Ying",
+    "lastName": "WU",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350148",
+    "firstName": "Vivien",
+    "lastName": "NOOR AISHAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350150",
+    "firstName": "Lay Tee",
+    "lastName": "CHUA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350151",
+    "firstName": "ZHAO TONG",
+    "lastName": "Kerh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350158",
+    "firstName": "AI LEE",
+    "lastName": "Ya Akob",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350162",
+    "firstName": "JIE LING",
+    "lastName": "SEET",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350164",
+    "firstName": "Zhong Zhen",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350170",
+    "firstName": "GUNAJAGAN",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350171",
+    "firstName": "K.R",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350172",
+    "firstName": "Lee Koon",
+    "lastName": "LIOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350175",
+    "firstName": "Sio Hoon",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350180",
+    "firstName": "Yamuna",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350181",
+    "firstName": "Chew Beng Guan Eugene",
+    "lastName": "Ho",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350188",
+    "firstName": "BTE ISMAIL",
+    "lastName": "KWEK",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350192",
+    "firstName": "Chuo Ing",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350194",
+    "firstName": "Ziqi",
+    "lastName": "TAY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350198",
+    "firstName": "LYNN",
+    "lastName": "GUPTA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350211",
+    "firstName": "Natalie Yi Pin",
+    "lastName": "Dela Cruz",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350212",
+    "firstName": "Ariq Matin",
+    "lastName": "FOO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350227",
+    "firstName": "SOR BEE",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350240",
+    "firstName": "HUIWEN NATALIE",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350242",
+    "firstName": "SI MIN",
+    "lastName": "Jong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:00:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350245",
+    "firstName": "Ngiap Hien (Lu Yexian)",
+    "lastName": "Yeo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350259",
+    "firstName": "KIM HONG",
+    "lastName": "TAY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350263",
+    "firstName": "Guan Cheng",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350273",
+    "firstName": "Hui Xuan",
+    "lastName": "Gunasegaran",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350276",
+    "firstName": "SOCK WANG",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350287",
+    "firstName": "CHOON MUAY",
+    "lastName": "CHUA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350288",
+    "firstName": "Aparajita",
+    "lastName": "Voon",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350296",
+    "firstName": "LIU YIN",
+    "lastName": "Lin",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350297",
+    "firstName": "HUI TING JOYCE",
+    "lastName": "CHEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350300",
+    "firstName": "SOH LAN",
+    "lastName": "Koh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350302",
+    "firstName": "YUAN LING",
+    "lastName": "Yanambakkam",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350312",
+    "firstName": "Bai Hong",
+    "lastName": "YOONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350313",
+    "firstName": "Nur Aziela Binte",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350318",
+    "firstName": "KIEN LENG",
+    "lastName": "Than",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350337",
+    "firstName": "Kim Lian",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350354",
+    "firstName": "D/O ALAGAN RAMOO",
+    "lastName": "NAVIN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350356",
+    "firstName": "ENG CHUN",
+    "lastName": "Gupta",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350360",
+    "firstName": "Siew Khim",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350369",
+    "firstName": "SWEE YING",
+    "lastName": "MUHAMMAD",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-25T19:11:29",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350379",
+    "firstName": "Chee Too Ivy",
+    "lastName": "ATAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350382",
+    "firstName": "Yeong Lan",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350388",
+    "firstName": "ZHI JIE",
+    "lastName": "Zainuthdeen",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350393",
+    "firstName": "ZAKIR BIN ZULFRI",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350401",
+    "firstName": "JUN CHANG",
+    "lastName": "MALIA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350405",
+    "firstName": "CHIN HUAT SEAN",
+    "lastName": "YEO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350411",
+    "firstName": "Mohamed Farid Bin",
+    "lastName": "Ani",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350413",
+    "firstName": "Yip Soon",
+    "lastName": "FAIZAL",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350417",
+    "firstName": "Wei Yoong",
+    "lastName": "LEOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350418",
+    "firstName": "Shariffah",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350420",
+    "firstName": "KAI YEE",
+    "lastName": "CHONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350426",
+    "firstName": "SEOK HOON",
+    "lastName": "Kooi",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350428",
+    "firstName": "Muhammad Areez Bin",
+    "lastName": "Ramoo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350430",
+    "firstName": "POH HONG",
+    "lastName": "Lee",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350434",
+    "firstName": "Nathaniel",
+    "lastName": "Bin Wan Hassan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350439",
+    "firstName": "Reyna",
+    "lastName": "SHOBAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350449",
+    "firstName": "Jie Wei Mervin",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350450",
+    "firstName": "Wen Heng",
+    "lastName": "S",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350459",
+    "firstName": "PEI FEN",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350470",
+    "firstName": "FAUZI BIN ROSLI",
+    "lastName": "Ser",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350475",
+    "firstName": "BEE KIM",
+    "lastName": "Jifridin",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350476",
+    "firstName": "D/O SIVANANDAN",
+    "lastName": "Soong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350479",
+    "firstName": "Nurjannah Binti",
+    "lastName": "LOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350482",
+    "firstName": "Hao",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350483",
+    "firstName": "GEK HOON",
+    "lastName": "Jaco",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350486",
+    "firstName": "Ragob",
+    "lastName": "Mohd Safri",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350487",
+    "firstName": "Li Juan Annie",
+    "lastName": "CHIN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350490",
+    "firstName": "Dimaano",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350491",
+    "firstName": "GUAT LOO",
+    "lastName": "LIU",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350493",
+    "firstName": "Hannah",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-16T19:11:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350495",
+    "firstName": "Salina Binte",
+    "lastName": "Choo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350497",
+    "firstName": "Kee Suan",
+    "lastName": "Lee",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350498",
+    "firstName": "Ai Kim",
+    "lastName": "Teng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350503",
+    "firstName": "Kai Cheng",
+    "lastName": "SITI NADZIRA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350508",
+    "firstName": "CATHERINE",
+    "lastName": "Awang Ahmad",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350512",
+    "firstName": "Mohd Amin Bin",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350513",
+    "firstName": "Cherris Pei Qiao",
+    "lastName": "NICHOLAS",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350515",
+    "firstName": "Ah Leng @Chee Chai Ngoh",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350516",
+    "firstName": "KET HUA",
+    "lastName": "JEGADEESAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350518",
+    "firstName": "HONG YAN",
+    "lastName": "AMIGO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350521",
+    "firstName": "GEOK BOON",
+    "lastName": "TENG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350529",
+    "firstName": "Kim Seng",
+    "lastName": "Muhamad Seth",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350530",
+    "firstName": "Yee Fong",
+    "lastName": "ONG",
+    "email": "calista.heng@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350531",
+    "firstName": "Jainen Raj",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350534",
+    "firstName": "BINTE JAMAL",
+    "lastName": "Pan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350537",
+    "firstName": "Mohd Syaiful Bin",
+    "lastName": "Tavhidin",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350540",
+    "firstName": "Alfie Lean Dona",
+    "lastName": "Yeo **",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350541",
+    "firstName": "KARUPAYA",
+    "lastName": "Suresh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350544",
+    "firstName": "BIN HAMZAH",
+    "lastName": "Hui",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350545",
+    "firstName": "Kaishi",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-28T19:11:21",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350549",
+    "firstName": "POH YAM",
+    "lastName": "Lim Wee Teck",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350550",
+    "firstName": "Surya",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350553",
+    "firstName": "WEI LOON WILLIAM",
+    "lastName": "LIAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350554",
+    "firstName": "Thivyakala",
+    "lastName": "Liaw Geok Hwee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350558",
+    "firstName": "Mei Xun",
+    "lastName": "LO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350560",
+    "firstName": "JINJUAN",
+    "lastName": "CHIANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350562",
+    "firstName": "BEE LIN",
+    "lastName": "Binte Ajis",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350563",
+    "firstName": "SIN WAH",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350564",
+    "firstName": "SING KAI RYAN",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350567",
+    "firstName": "Thian Teck (Patrick)",
+    "lastName": "Shaila",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350569",
+    "firstName": "BIN MOHAMAD HASNI",
+    "lastName": "Ho",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350572",
+    "firstName": "Khairul Shahrir Bin",
+    "lastName": "VERONICA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350577",
+    "firstName": "Yue Ling Jacquelin",
+    "lastName": "WONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350579",
+    "firstName": "TICK CHEW",
+    "lastName": "MARLIMI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350586",
+    "firstName": "Bee Tin Irene",
+    "lastName": "Bin Syed Taha",
+    "email": "yuqing.chan@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350588",
+    "firstName": "HOCK CHAY",
+    "lastName": "Kevin Elefante",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350590",
+    "firstName": "CHUEN NGIAP",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350591",
+    "firstName": "Muhammad Hanafi Bin",
+    "lastName": "CHAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350593",
+    "firstName": "SI QIN GRACE",
+    "lastName": "RAMZAN BANU",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350596",
+    "firstName": "Choon Tiong",
+    "lastName": "Tay",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-17T19:11:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350597",
+    "firstName": "Chee Kwang",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350604",
+    "firstName": "REN JIE JONATHAN",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-17T19:11:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350609",
+    "firstName": "WAN YI",
+    "lastName": "YAP",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350611",
+    "firstName": "MEI LING",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350613",
+    "firstName": "KAR MUN",
+    "lastName": "MUHAMMAD AMIN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350620",
+    "firstName": "Chiew Mei",
+    "lastName": "LAU",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350621",
+    "firstName": "ENG HAO",
+    "lastName": "TOH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350625",
+    "firstName": "Warren",
+    "lastName": "S/O Abdul Kalam",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350626",
+    "firstName": "Siew Meng",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350627",
+    "firstName": "Ean Ling",
+    "lastName": "LIEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350628",
+    "firstName": null,
+    "lastName": "TAN",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350629",
+    "firstName": "BIN WIRA",
+    "lastName": "UMA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350634",
+    "firstName": "Seok Hui",
+    "lastName": "KOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350636",
+    "firstName": "Ah Choo",
+    "lastName": "Zainal Bahri",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350637",
+    "firstName": "Nahiwan",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350639",
+    "firstName": "Ummu Hanny Binti",
+    "lastName": "NUR HIDAYAH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350642",
+    "firstName": "Chew Nikka Cualing",
+    "lastName": "Ting",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350645",
+    "firstName": "ARUMUGAM",
+    "lastName": "Kamisran",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350646",
+    "firstName": "Mariati Binte",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350647",
+    "firstName": "LAI PENG",
+    "lastName": "Kung",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350651",
+    "firstName": "CAI XUEN CLAUDIA",
+    "lastName": "Bachik",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350652",
+    "firstName": "Poh Chuan",
+    "lastName": "LEONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350653",
+    "firstName": "TIAW CHUAN",
+    "lastName": "MOHAMMAD ALIF",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350655",
+    "firstName": "Henry",
+    "lastName": "ANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350656",
+    "firstName": "CHIN KHIM RONALD",
+    "lastName": "ENG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350660",
+    "firstName": "Cheryl Louisa",
+    "lastName": "D/O Kolanthasamy",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350661",
+    "firstName": "SWEE KHENG",
+    "lastName": "Beh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350662",
+    "firstName": null,
+    "lastName": "CHAN",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350663",
+    "firstName": "Yik Ying",
+    "lastName": "MARWATI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350666",
+    "firstName": "Nurul Farahizatul Ulia Binte",
+    "lastName": "Mohd Rafzi",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350667",
+    "firstName": "HWEE KIAT",
+    "lastName": "SIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350672",
+    "firstName": "Zhi Quan",
+    "lastName": "Chew",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350673",
+    "firstName": "YU LI",
+    "lastName": "Neo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350674",
+    "firstName": "Poh Suan",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350675",
+    "firstName": "PARAMESWARAN",
+    "lastName": "Neo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350676",
+    "firstName": null,
+    "lastName": "NG",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350677",
+    "firstName": "Jie En Jaeden",
+    "lastName": "WONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350678",
+    "firstName": "Mohammad Solehan Bin",
+    "lastName": "Chow",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350682",
+    "firstName": "Maria",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350686",
+    "firstName": "BINTE KAMARUDDIN",
+    "lastName": "ADAM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350687",
+    "firstName": "Chew Keng",
+    "lastName": "CHENG",
+    "email": "yuqing.chan@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350689",
+    "firstName": "Lucas Issac",
+    "lastName": "CHEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350691",
+    "firstName": "SIEW KIM",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350694",
+    "firstName": "Andrew Chitty",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350695",
+    "firstName": "Xiaochun",
+    "lastName": "Chan",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350697",
+    "firstName": "Xiao Wei",
+    "lastName": "Leow",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350698",
+    "firstName": "SIU SIAN",
+    "lastName": "Hew",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350699",
+    "firstName": "Meng Chew",
+    "lastName": "Tan",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350701",
+    "firstName": "@Llorente Teresa Lacson",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350703",
+    "firstName": "Qinggao",
+    "lastName": "Binte Afundi",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-18T19:11:25",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350704",
+    "firstName": "BINTE HASSAN",
+    "lastName": "FAIIZAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-18T19:11:25",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350705",
+    "firstName": "Cheow Ngan",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350706",
+    "firstName": "ZI LI",
+    "lastName": "Low",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-02T19:11:29",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350715",
+    "firstName": "Phei Yen",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350716",
+    "firstName": "GEK HENG",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-16T19:11:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350718",
+    "firstName": "WEI LIANG",
+    "lastName": "Hery Susanto",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-23T19:11:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350721",
+    "firstName": "Sok Fun",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350724",
+    "firstName": "GUANG JIE CLEMENCE",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350725",
+    "firstName": "Gordon",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350727",
+    "firstName": "Hong Kiat Marcus",
+    "lastName": "Seah",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350731",
+    "firstName": "Calumaya",
+    "lastName": "MA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350732",
+    "firstName": "Ramkumar",
+    "lastName": "LEW",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350733",
+    "firstName": "SHERYLYN AGPAOA",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350734",
+    "firstName": "See Chuan (Nick)",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350735",
+    "firstName": "Siew Tin",
+    "lastName": "KHO",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350736",
+    "firstName": "Jenny",
+    "lastName": "Chong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350737",
+    "firstName": "Selvam Dorasamy",
+    "lastName": "User",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350738",
+    "firstName": "Toon Ling Melissa",
+    "lastName": "Amyadi",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350740",
+    "firstName": "SISON LIMENZON",
+    "lastName": "Tong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350741",
+    "firstName": "Teck Leong Thomas",
+    "lastName": "Pang",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350744",
+    "firstName": "Peng Hock",
+    "lastName": "TEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350745",
+    "firstName": "Wei Ji Desmond",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350746",
+    "firstName": "LIM MOA",
+    "lastName": "Binte Ismail",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350747",
+    "firstName": "Kexin",
+    "lastName": "Ong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350749",
+    "firstName": "Siew Mei",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:42",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350753",
+    "firstName": "SHAN YANG ADRIEL",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350754",
+    "firstName": "LAY CHOON",
+    "lastName": "LAW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350755",
+    "firstName": "CHEW YEE",
+    "lastName": "NUR SHAKINA EDLYNNA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350757",
+    "firstName": "Malani",
+    "lastName": "ANG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350758",
+    "firstName": "HING MUN",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350759",
+    "firstName": "Wanida",
+    "lastName": "Ning",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350763",
+    "firstName": "Lecia",
+    "lastName": "Maquiling",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350764",
+    "firstName": "Lazaro Jeffrey",
+    "lastName": "Hewagama",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:44",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350765",
+    "firstName": "JIA XUAN",
+    "lastName": "Mohamed Noor",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350766",
+    "firstName": "Shanmugam",
+    "lastName": "Zhang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350768",
+    "firstName": "AMEERA ZULAIKHA",
+    "lastName": "XAVIER",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350769",
+    "firstName": "RYAN",
+    "lastName": "KONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350771",
+    "firstName": "Jan",
+    "lastName": "MANOGHARI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350772",
+    "firstName": "Nancy",
+    "lastName": "Lai",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350773",
+    "firstName": "YIN KONG",
+    "lastName": "He",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350774",
+    "firstName": "Peng Yong",
+    "lastName": "YAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350776",
+    "firstName": "Siti Zakiah Binte",
+    "lastName": "LI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350778",
+    "firstName": "Qiao Wei",
+    "lastName": "Ferraren Jr",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350779",
+    "firstName": "SENG GUAN",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:45",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350780",
+    "firstName": "YANKING",
+    "lastName": "YI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350781",
+    "firstName": "WEE BOON",
+    "lastName": "Khoo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350782",
+    "firstName": "Remelia D/O",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350783",
+    "firstName": "Min Chien",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350786",
+    "firstName": "ZHEN HUI YVONNE",
+    "lastName": "Mohamed Safrain",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350787",
+    "firstName": "HONG KAH EDWARD",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350788",
+    "firstName": "Gee Cheong Jonas",
+    "lastName": "Haque",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350791",
+    "firstName": "ZONG SHUN",
+    "lastName": "Sabit",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350792",
+    "firstName": "XIN LING CHLOE",
+    "lastName": "Warnakulasooriya Kalugamage Tharindu DWF",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350793",
+    "firstName": "Pei Tyi Helene",
+    "lastName": "Chek",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350794",
+    "firstName": "A/P SUBRAMANIAM",
+    "lastName": "SIN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350795",
+    "firstName": "Angel Anne Sison",
+    "lastName": "LAM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-31T19:12:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350797",
+    "firstName": "Chee Seng",
+    "lastName": "NAUFAL",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350800",
+    "firstName": "GUANG HUI",
+    "lastName": "Soh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350801",
+    "firstName": "Weilong",
+    "lastName": "Liew",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-05T19:11:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350802",
+    "firstName": "Tamara Ana",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-17T19:12:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350803",
+    "firstName": "LAY TIN",
+    "lastName": "CHUA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350804",
+    "firstName": "SHIKADA A.OBLIGACION",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350805",
+    "firstName": "YONG JIE",
+    "lastName": "Cheng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-11T19:11:43",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350806",
+    "firstName": "STEVEN",
+    "lastName": "Sia",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350807",
+    "firstName": "YU RU",
+    "lastName": "HONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2025-09-05T02:36:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350808",
+    "firstName": "Leroy Zhuo Yi",
+    "lastName": "AYESHA NUR SUHAA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350809",
+    "firstName": "Lee Lee",
+    "lastName": "User",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350811",
+    "firstName": "BOON HIONG",
+    "lastName": "RONALD",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350812",
+    "firstName": "Dhyuthi Nagaraju",
+    "lastName": "Teh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350813",
+    "firstName": "Muhammad Razi",
+    "lastName": "MAHALINGAM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350815",
+    "firstName": "HSIEN ZEN GABRIEL",
+    "lastName": "Sudirgo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350816",
+    "firstName": "THI NGA",
+    "lastName": "TAN",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350817",
+    "firstName": "Rasidah Binte",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350818",
+    "firstName": "ER HAO",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350819",
+    "firstName": "YEE NEE NATALIE",
+    "lastName": "BINTI NAZRUL HAQIEM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350822",
+    "firstName": "Chee Fun",
+    "lastName": "Aw",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-16T19:11:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350823",
+    "firstName": "Sai",
+    "lastName": "LAU",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350824",
+    "firstName": "Ah Ping",
+    "lastName": "Muhammad Fahmi",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350825",
+    "firstName": "Chao Yuan Redknapp",
+    "lastName": "Ong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350827",
+    "firstName": "Chhai Khiang",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350828",
+    "firstName": "SUBASHINI",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350830",
+    "firstName": "Wang Ping",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350831",
+    "firstName": "MEOW TIANG",
+    "lastName": "Shukla",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350832",
+    "firstName": "YI YONG",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350833",
+    "firstName": "BOON HWA JOSEPH",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350835",
+    "firstName": null,
+    "lastName": "Mallika Arachchige",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350836",
+    "firstName": "Sasidaran",
+    "lastName": "CHAI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-01T18:10:40",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350837",
+    "firstName": "Janani",
+    "lastName": "M",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350838",
+    "firstName": "Relo",
+    "lastName": "Guo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350839",
+    "firstName": "Kim Bee",
+    "lastName": "Ling",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350840",
+    "firstName": "Poorna Chandra Rao",
+    "lastName": "FATHIMA ZAKIYYA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350843",
+    "firstName": "SIEW GEOK",
+    "lastName": "VIVI NIRIYANTIE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350844",
+    "firstName": "PUANG THIANG",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350845",
+    "firstName": "DESMOND",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350846",
+    "firstName": "GEOK MUI",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350847",
+    "firstName": "MRS.KULARAJAH AMMONY",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350848",
+    "firstName": "Soo Pheng",
+    "lastName": "Ong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350849",
+    "firstName": "WEI QI",
+    "lastName": "ANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350852",
+    "firstName": "Dalde",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350853",
+    "firstName": "LATIFAH",
+    "lastName": "PHUA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350854",
+    "firstName": "Nur Aziela Binte",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350858",
+    "firstName": "HONGCHAO",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350859",
+    "firstName": "Muhammad Khairuddin Bin",
+    "lastName": "DILAG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350860",
+    "firstName": "Yong Sia",
+    "lastName": "CHONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350861",
+    "firstName": "Waheeda Bte @Waheeda R Hernandez",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350862",
+    "firstName": "SANTIAGO",
+    "lastName": "Tang",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350863",
+    "firstName": "PHUAY CHOO",
+    "lastName": "OSMAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350865",
+    "firstName": "KESAVAN",
+    "lastName": "Yu Layao",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350867",
+    "firstName": "XUE LE JESLYNN",
+    "lastName": "Kok",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350868",
+    "firstName": "Chin Lee",
+    "lastName": "Tan",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350878",
+    "firstName": "Phuong Thao",
+    "lastName": "CHONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350881",
+    "firstName": "Siti Masainah",
+    "lastName": "JANAKI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350883",
+    "firstName": "LEE LIAN",
+    "lastName": "PUNG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350886",
+    "firstName": "Wai Hoe",
+    "lastName": "LO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350888",
+    "firstName": "Chee Kuang",
+    "lastName": "Yakob @Wan Nee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350889",
+    "firstName": "EYU",
+    "lastName": "YEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350890",
+    "firstName": "Tiu",
+    "lastName": "Binti Ismail",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350892",
+    "firstName": "Purged",
+    "lastName": "HUFALAR",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350893",
+    "firstName": "YU SHENG JASMINE",
+    "lastName": "SHANNENJEET",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350895",
+    "firstName": "AH YEN",
+    "lastName": "Valayethan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350897",
+    "firstName": "Men Yem",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350898",
+    "firstName": "CHIU MING",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350900",
+    "firstName": "KEN BOON",
+    "lastName": "YEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350901",
+    "firstName": "Zhi Chye",
+    "lastName": "Lai",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350902",
+    "firstName": "YANPENG",
+    "lastName": "LEOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350903",
+    "firstName": "Jun Yee",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350904",
+    "firstName": "Kelvin Yong Rong",
+    "lastName": "CHUA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350905",
+    "firstName": "LEE KHENG",
+    "lastName": "NOYNAY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350906",
+    "firstName": "BINTE JAAFAR",
+    "lastName": "Ying Xuan Clairine",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350907",
+    "firstName": "Lee Lan",
+    "lastName": "Soon",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350908",
+    "firstName": "CHEE KEONG",
+    "lastName": "Lim",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350910",
+    "firstName": "Khin Siong",
+    "lastName": "Yap",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350911",
+    "firstName": "Lip Yong Nathanael",
+    "lastName": "Na",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350912",
+    "firstName": "WEN",
+    "lastName": "Usme Rytz Benitez",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350915",
+    "firstName": "BTE ATTAN",
+    "lastName": "YONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350916",
+    "firstName": "Kai Tock",
+    "lastName": "WILFRED ALEXANDER",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350917",
+    "firstName": "Haravinthan Nair K",
+    "lastName": "Campano",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350918",
+    "firstName": "Yew Choon",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350919",
+    "firstName": "SHU HUI",
+    "lastName": "CHEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350920",
+    "firstName": "Michelle Siong",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350921",
+    "firstName": "Nguan Hock",
+    "lastName": "Ong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350923",
+    "firstName": null,
+    "lastName": "SITI HAFIZAH",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350925",
+    "firstName": "Gng Joo",
+    "lastName": "RUFIRO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350926",
+    "firstName": "Rongsen Winson",
+    "lastName": "Mohamed Yusoff",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350927",
+    "firstName": "YIN POW THOMAS",
+    "lastName": "Tagana",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350928",
+    "firstName": "Kok Hing",
+    "lastName": "YAU",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350929",
+    "firstName": "JIE XUAN",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350931",
+    "firstName": "WAI LING",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350932",
+    "firstName": "MARAAGADHAM",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350933",
+    "firstName": "IRHAM NORIZAM",
+    "lastName": "Low",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350934",
+    "firstName": "Tze Wei, Timothy",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350936",
+    "firstName": "SHI ROU",
+    "lastName": "Song",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350938",
+    "firstName": "Yogeswari",
+    "lastName": "Goh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350939",
+    "firstName": "SIEW ENG",
+    "lastName": "NEO",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350940",
+    "firstName": "Yoke Luan",
+    "lastName": "Ong **",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350941",
+    "firstName": "Ravinder Kaur D/o",
+    "lastName": "HAIRUL FAIZAL",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350943",
+    "firstName": "Vijeyan A/L",
+    "lastName": "LUAR",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2350944",
+    "firstName": "Lai Kuai",
+    "lastName": "PUJATAIE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359010",
+    "firstName": "SHU CHUIN IRIS",
+    "lastName": "Gan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359084",
+    "firstName": "HONG WEI",
+    "lastName": "LOKE",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359196",
+    "firstName": "Sng",
+    "lastName": "PANG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359221",
+    "firstName": "REN HUI MOSES",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359223",
+    "firstName": "Zakir",
+    "lastName": "LAM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359226",
+    "firstName": "Tzu-Ying",
+    "lastName": "Teh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359241",
+    "firstName": "XIN",
+    "lastName": "Chua",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "2359366",
+    "firstName": "MAUNG HTWE",
+    "lastName": "Chong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3002993",
+    "firstName": "SELVA RAJI",
+    "lastName": "D/O Jajahan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3002995",
+    "firstName": "TECK KHOON",
+    "lastName": "Abayakoon",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3002997",
+    "firstName": "SZE MOY",
+    "lastName": "RYAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3002998",
+    "firstName": "Ren Wei",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3002999",
+    "firstName": "WEI",
+    "lastName": "REGINALD",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003000",
+    "firstName": "Norashikin Binte",
+    "lastName": "KUM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003002",
+    "firstName": "LEE MENG",
+    "lastName": "SANTHA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003003",
+    "firstName": "Kia Chai",
+    "lastName": "Tan",
+    "email": "yuqing.chan@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003004",
+    "firstName": "BAGAVATHY",
+    "lastName": "Saw",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003009",
+    "firstName": "Mui Cheng",
+    "lastName": "Ying Hui",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003010",
+    "firstName": "ZI RONG BRANSON",
+    "lastName": "HENG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003016",
+    "firstName": "HUI HUANG",
+    "lastName": "Loh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003017",
+    "firstName": "JIA JUN",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003018",
+    "firstName": "AZRI BIN ADAM",
+    "lastName": "SAIISHWAR RAJ",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003022",
+    "firstName": "Nyet Fah",
+    "lastName": "Neo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003026",
+    "firstName": "Siew Kee",
+    "lastName": "YEOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003028",
+    "firstName": "Shiming",
+    "lastName": "Chua",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003031",
+    "firstName": "Keng San",
+    "lastName": "Criselda Ruiz",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003040",
+    "firstName": "NAGENDRAN",
+    "lastName": "Teh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003042",
+    "firstName": "Prabhudas",
+    "lastName": "Toh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003044",
+    "firstName": "LEE LEE",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2025-09-05T02:26:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003059",
+    "firstName": "Saravanan",
+    "lastName": "NOR'AZMI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003060",
+    "firstName": "Seok Yee Elaine",
+    "lastName": "Khant",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003061",
+    "firstName": "Kheng Sern Derrick",
+    "lastName": "NORJANAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003090",
+    "firstName": "Nurush Shifa'",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003091",
+    "firstName": "Muhammad Aqif Nufael Bin",
+    "lastName": "Emilio Gabriel **",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003092",
+    "firstName": "PROXYUAT",
+    "lastName": "OFFQABRY2 21902",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003093",
+    "firstName": "Thida Soe",
+    "lastName": "Neo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003097",
+    "firstName": "SIOK HOON",
+    "lastName": "Mohammed",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003141",
+    "firstName": "Depamaylo",
+    "lastName": "MUHAMMAD",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003144",
+    "firstName": "DHIVIYASHREE",
+    "lastName": "ROHANI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003154",
+    "firstName": "Bee Cheok",
+    "lastName": "MARY ANN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003172",
+    "firstName": "AH LANG",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-31T19:12:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003181",
+    "firstName": "Masni Bin",
+    "lastName": "CHEN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003187",
+    "firstName": "Ahmad Luqman Rafael Bin",
+    "lastName": "Kah",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:58",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003199",
+    "firstName": "Nitya Sri",
+    "lastName": "LOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003245",
+    "firstName": "MEI YOKE",
+    "lastName": "Jiang",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003267",
+    "firstName": "JUN HONG ASHER",
+    "lastName": "Dang",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003287",
+    "firstName": "TECK KIN KENNY",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003294",
+    "firstName": "Johnson",
+    "lastName": "See",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003299",
+    "firstName": "CHUN SING",
+    "lastName": "ARAVIN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:01",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003314",
+    "firstName": "SENG MEI",
+    "lastName": "Choo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003316",
+    "firstName": "Yurie Celeste Supsup",
+    "lastName": "NUR SYAKIRAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003350",
+    "firstName": "HAIJUN",
+    "lastName": "KRISHNASPURI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003389",
+    "firstName": "BIN JOHARI",
+    "lastName": "Syed Mohamed Mustaza",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:01",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003391",
+    "firstName": "Swee Kiau",
+    "lastName": "ZHUANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003396",
+    "firstName": "Muhammad Na Im Haikal Bin",
+    "lastName": "MOHAMAD IZZAT QAIYYUM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-02T18:11:37",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003398",
+    "firstName": "Kiah Nurwati",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003439",
+    "firstName": "Kok Keung Lawrence",
+    "lastName": "WONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-02T18:11:37",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003440",
+    "firstName": "Rekha",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003442",
+    "firstName": "HONG HUI",
+    "lastName": "KARUNAKARAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:02",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003455",
+    "firstName": "Siew Hwa",
+    "lastName": "Tan Swee Geok",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:03",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003467",
+    "firstName": "BINTE MOHAMED NOOR",
+    "lastName": "Chong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:03",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003473",
+    "firstName": "Parwinder",
+    "lastName": "Ding",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-01T19:12:20",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003474",
+    "firstName": "Parameswary Ravi Kumar",
+    "lastName": "Vediappan",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:03",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003475",
+    "firstName": "Jun Wei",
+    "lastName": "Yip",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:03",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003476",
+    "firstName": "CHYE KWEE",
+    "lastName": "CHEOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:03",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003477",
+    "firstName": "MINLIANG",
+    "lastName": "MUHD",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-17T19:12:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003490",
+    "firstName": "Pheng Rong Rysher",
+    "lastName": "TONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:04",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003514",
+    "firstName": "Siew Keok",
+    "lastName": "Ong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-23T19:11:29",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003546",
+    "firstName": "Tenmolli",
+    "lastName": "TEO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-23T19:11:30",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003576",
+    "firstName": "Xingyu",
+    "lastName": "WANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-07T19:11:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003578",
+    "firstName": "Hsiong Ping",
+    "lastName": "Ahmad Murthza",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-07T19:11:47",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
@@ -27,30 +4140,1200 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350493",
-    "firstName": "Hannah",
-    "lastName": "LEE",
+    "userId": "3003626",
+    "firstName": "WEI JIE",
+    "lastName": "Amran",
     "email": "dummy@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-05-16T19:11:55",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:08",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350716",
-    "firstName": "GEK HENG",
-    "lastName": "LEE",
+    "userId": "3003629",
+    "firstName": "Swee Kheng",
+    "lastName": "Kho",
     "email": "dummy@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-05-16T19:11:55",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:05",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350822",
-    "firstName": "Chee Fun",
-    "lastName": "Aw",
+    "userId": "3003664",
+    "firstName": "Priya Latha D/o",
+    "lastName": "LIM",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-05-16T19:11:55",
+    "lastModified": "2026-05-18T19:11:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003685",
+    "firstName": "H. MADDULUNGENG",
+    "lastName": "Chan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-21T19:12:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003715",
+    "firstName": "KRISTINE VIRAY",
+    "lastName": "Teo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:05",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003718",
+    "firstName": "THIAM TECK",
+    "lastName": "YANG RASHIDI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:05",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003747",
+    "firstName": "BINTE HAMZAH",
+    "lastName": "YONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:07",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003776",
+    "firstName": "SOCK KHOON",
+    "lastName": "Jaginder Singh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:07",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003780",
+    "firstName": "MINGJIE",
+    "lastName": "RAHIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003781",
+    "firstName": "GRACE JAMES",
+    "lastName": "Yap",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003793",
+    "firstName": "Md Asri Bin",
+    "lastName": "YEO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003820",
+    "firstName": "Relo",
+    "lastName": "Guo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003832",
+    "firstName": "HENG LONG",
+    "lastName": "Yap",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003833",
+    "firstName": "Salamon Bin",
+    "lastName": "Yin",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003840",
+    "firstName": "PEI LING JACQUELINE",
+    "lastName": "CHEAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:07",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003859",
+    "firstName": "BIN MUHAMAAD AZLAN SHAHRANI",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003864",
+    "firstName": "Saraswathy D/o",
+    "lastName": "Meah",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003870",
+    "firstName": "MING YONG",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003871",
+    "firstName": "Yong Seng",
+    "lastName": "GUNASEELAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003872",
+    "firstName": "Ah Moi",
+    "lastName": "Quek",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003886",
+    "firstName": "Yuet Ho",
+    "lastName": "Liu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:10",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003908",
+    "firstName": "MIN CHOO",
+    "lastName": "Binte Mohamad Yusof",
+    "email": "sally.tan@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003929",
+    "firstName": "Bao Ling",
+    "lastName": "Hodri",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003931",
+    "firstName": "SHWU KUANG",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003933",
+    "firstName": "Bee Leng",
+    "lastName": "ZURAIDAH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003935",
+    "firstName": "YIZHONG ALVIN",
+    "lastName": "Cui",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:08",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003944",
+    "firstName": "Kai Ting Valerie",
+    "lastName": "Chua",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003946",
+    "firstName": "JAMES ANTONIO",
+    "lastName": "SIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:09",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003956",
+    "firstName": "BINTE JAMARI",
+    "lastName": "BEMALA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:04:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3003960",
+    "firstName": "Kang Leong",
+    "lastName": "Welzl",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:10",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004011",
+    "firstName": "SIEW KIN",
+    "lastName": "CHIA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:03:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004021",
+    "firstName": "Cuadra",
+    "lastName": "Mahendran",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004022",
+    "firstName": "Bains",
+    "lastName": "THIA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004024",
+    "firstName": "CHENG LAN",
+    "lastName": "Huang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004037",
+    "firstName": "CHOW SENG",
+    "lastName": "KHOO",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004047",
+    "firstName": "Francis Chze Kuang",
+    "lastName": "Chin",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004067",
+    "firstName": "Famoso Dennis",
+    "lastName": "LIU",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004069",
+    "firstName": "Wee Sim",
+    "lastName": "S Kumaran",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004070",
+    "firstName": "WAN LI WENDY",
+    "lastName": "Koo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004071",
+    "firstName": "MAUNG HTWE",
+    "lastName": "Chong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:05:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004082",
+    "firstName": "MEI MEI CHRISTINE",
+    "lastName": "HO",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004105",
+    "firstName": "BINTE RAMLI",
+    "lastName": "LEE SOON YOW",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004122",
+    "firstName": "Ming Wei, Ethan",
+    "lastName": "LAM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004124",
+    "firstName": "SZE ZHUARD",
+    "lastName": "Cham",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004128",
+    "firstName": "Purged",
+    "lastName": "Tay",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004136",
+    "firstName": "Hao Jue",
+    "lastName": "Chuah",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:18",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004150",
+    "firstName": "Jing Joke",
+    "lastName": "Siw Kew",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004152",
+    "firstName": "Meng Ngee",
+    "lastName": "Fong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004157",
+    "firstName": "Ainin Sofia Binti",
+    "lastName": "Chua",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004221",
+    "firstName": "CHONGCHITTHAVORN",
+    "lastName": "NGIAM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:01:40",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004260",
+    "firstName": "Chun Siang",
+    "lastName": "Ung",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:14",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004272",
+    "firstName": "Sook Har",
+    "lastName": "Seet",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004273",
+    "firstName": "SOO JUN",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004286",
+    "firstName": "SIEW WUN",
+    "lastName": "Ang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:16",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004287",
+    "firstName": "Zhi Qiang",
+    "lastName": "Koon **",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:16",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004293",
+    "firstName": "Sheue Ling",
+    "lastName": "GOH",
+    "email": null,
+    "status": "f",
+    "lastModified": "2026-05-19T19:12:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004303",
+    "firstName": null,
+    "lastName": "User",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004306",
+    "firstName": "A/L RAJANDRAN",
+    "lastName": "SHAMALA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004321",
+    "firstName": "Jackie",
+    "lastName": "Tan",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004324",
+    "firstName": null,
+    "lastName": "Shrivastav",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004326",
+    "firstName": "Nur Sarah Eryna Binte",
+    "lastName": "Lam",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:13",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004351",
+    "firstName": "Jing Rui",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004355",
+    "firstName": "Beti",
+    "lastName": "George",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:15",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004384",
+    "firstName": "Khuankaew",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:17",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004408",
+    "firstName": "Hongyu",
+    "lastName": "Vadevelu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:11",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004411",
+    "firstName": "GANG",
+    "lastName": "WANG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004425",
+    "firstName": "POH CHENG",
+    "lastName": "Musa",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:12",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004451",
+    "firstName": "KUAY KIANG",
+    "lastName": "Soh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:14",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004525",
+    "firstName": "Mohamad Hatta Bin",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:16",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004541",
+    "firstName": "LI MIEN",
+    "lastName": "Paramanthan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:17",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004561",
+    "firstName": "CHENG WAI FIONA",
+    "lastName": "CHAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004566",
+    "firstName": "Shamsiah Binte",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004577",
+    "firstName": "SHIYING",
+    "lastName": "Nina Abrasaldo Dacanay",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3004632",
+    "firstName": "Siew Foo",
+    "lastName": "Yee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:17",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009703",
+    "firstName": "AQILA BTE AB RASHID",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009707",
+    "firstName": "LILY",
+    "lastName": "NING",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009742",
+    "firstName": "BINTE MOHAMED",
+    "lastName": "Ng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:17",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009744",
+    "firstName": "YU ZHE",
+    "lastName": "Jumien",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:18",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009752",
+    "firstName": "Thi Phuong (Lily)",
+    "lastName": "Sague",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:18",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009757",
+    "firstName": "Norlin Binte",
+    "lastName": "AUW",
+    "email": "yuqing.chan@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009761",
+    "firstName": "Leung Shen",
+    "lastName": "Hussin",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009816",
+    "firstName": "S/O SIVANATHAN",
+    "lastName": "PRIYA DARSHINI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009822",
+    "firstName": "WAI MING KENNETH",
+    "lastName": "Binte Modzafar",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009825",
+    "firstName": "Lynette",
+    "lastName": "TEO",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:19",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009835",
+    "firstName": "Man Kent",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:20",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009839",
+    "firstName": "MICHAEL BATARRA",
+    "lastName": "Ang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:20",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009862",
+    "firstName": ".",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:22",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009863",
+    "firstName": "KUI WAY",
+    "lastName": "TAY",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:22",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009869",
+    "firstName": "Ying Yi",
+    "lastName": "On",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:23",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009883",
+    "firstName": "SIAO MAY",
+    "lastName": "Gunasageran",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:21",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009886",
+    "firstName": "Yueh Ang",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:21",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009894",
+    "firstName": "YONG JIAN",
+    "lastName": "Teo",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:22",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009906",
+    "firstName": "Shazwani Binte",
+    "lastName": "STEVEN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:23",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009912",
+    "firstName": "Beng Suan",
+    "lastName": "Nguyen",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:23",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009914",
+    "firstName": "Kim Sen",
+    "lastName": "Tan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009918",
+    "firstName": "KA YAN",
+    "lastName": "Wong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009920",
+    "firstName": "YEPING",
+    "lastName": "NATALIE CHOY",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009923",
+    "firstName": "WAN SENG RONWE",
+    "lastName": "LIANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009948",
+    "firstName": "KAMAL",
+    "lastName": "Ponnambalam",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:25",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009949",
+    "firstName": "Jia Ying Jasmine",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:25",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009993",
+    "firstName": "Aleesa Sofia",
+    "lastName": "FIDA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3009998",
+    "firstName": "Jia Wen",
+    "lastName": "Shariff",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010025",
+    "firstName": "YOULING",
+    "lastName": "Chng",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010034",
+    "firstName": "KUI HIONG",
+    "lastName": "Tran Thien An",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010036",
+    "firstName": "SIEW FONG",
+    "lastName": "Abu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010046",
+    "firstName": "Mohammad Fadir",
+    "lastName": "LOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-14T19:11:23",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010054",
+    "firstName": "YI FAI",
+    "lastName": "Liu",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010060",
+    "firstName": "Peh Ching",
+    "lastName": "ZHENG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010074",
+    "firstName": "BIN BUANG",
+    "lastName": "JAYANADANI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:25",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010076",
+    "firstName": "Kai Tat",
+    "lastName": "New",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010090",
+    "firstName": "YONG HUA WILSON",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010126",
+    "firstName": "Siti Raodah Binte",
+    "lastName": "Chong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-07T19:11:24",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010143",
+    "firstName": "Nicolas Xin Qiao",
+    "lastName": "Ahmad",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010159",
+    "firstName": "Isabella Raissa Binte",
+    "lastName": "Poon",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010166",
+    "firstName": "Mauro Gaston",
+    "lastName": "Md Said",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010173",
+    "firstName": "YUE HUI",
+    "lastName": "ZHUO",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010177",
+    "firstName": "MAIL ROGRAM",
+    "lastName": "Nadarajan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010190",
+    "firstName": "MOY CHAI",
+    "lastName": "Leo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-12T19:11:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010208",
+    "firstName": "KIN CHOONG EDMUND",
+    "lastName": "DENNIS",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-23T19:11:30",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010209",
+    "firstName": "Yonaguru",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010214",
+    "firstName": "Jeevan Raj A/L",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010221",
+    "firstName": "KIAH LAN",
+    "lastName": "Qi",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-22T19:11:31",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010223",
+    "firstName": "SWEE YUN SAMANTHA",
+    "lastName": "ALIF",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010225",
+    "firstName": "YIN PEI",
+    "lastName": "SIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-28T19:11:22",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010228",
+    "firstName": "Chun Tat",
+    "lastName": "Selvarajoo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-19T19:11:59",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010229",
+    "firstName": "Melissa",
+    "lastName": "Sim",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:27",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010230",
+    "firstName": "Wei Wei",
+    "lastName": "RAHMAH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:28",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010239",
+    "firstName": "Duraivenkatesh",
+    "lastName": "Shahizan",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-22T19:12:00",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010242",
+    "firstName": "Heng Loong",
+    "lastName": "Wang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-29T19:11:33",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010243",
+    "firstName": "Kee Hian",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-01T19:12:21",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010262",
+    "firstName": "HAO EN",
+    "lastName": "Cheng",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-05T19:11:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010266",
+    "firstName": "Hsu Pyae Win",
+    "lastName": "GOH",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:28",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010288",
+    "firstName": "Sai Mithraa A/P",
+    "lastName": "Chua",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T19:12:04",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
@@ -63,525 +5346,1128 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350596",
-    "firstName": "Choon Tiong",
+    "userId": "3010324",
+    "firstName": "Meilian",
+    "lastName": "BAVATARANI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:30",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010353",
+    "firstName": "CHIA LIN",
+    "lastName": "Khoo",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:30",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010356",
+    "firstName": "Elirah Seth Virata",
+    "lastName": "CHAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T19:12:04",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010357",
+    "firstName": "Hui Hui",
+    "lastName": "KUANG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:30",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010370",
+    "firstName": "AMBROSE",
+    "lastName": "SRI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:31",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010375",
+    "firstName": "Chon Samuel",
+    "lastName": "Masom",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:31",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010380",
+    "firstName": "MEI CHEN",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:31",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010400",
+    "firstName": "ZHAN HUI",
+    "lastName": "SIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:32",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010401",
+    "firstName": "Jasmini Bin",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:33",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010416",
+    "firstName": "BIN MD LUTFI",
+    "lastName": "Soh",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:34",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010417",
+    "firstName": "HUI FEN",
+    "lastName": "Buanesh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:34",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010430",
+    "firstName": "Si Min Erinn",
+    "lastName": "LOW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010434",
+    "firstName": "Muhammad Hassan Bin",
+    "lastName": "ONG",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:03:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010435",
+    "firstName": "FOONG KUM",
+    "lastName": "Lee",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010436",
+    "firstName": "D/O R T CHODALAIMUTHU",
+    "lastName": "YEO",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010441",
+    "firstName": "Swee Kwang",
+    "lastName": "Mat Nor",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:32",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010448",
+    "firstName": "Waneeyakun",
+    "lastName": "SIM",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:33",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010478",
+    "firstName": "TIJOL LIM",
+    "lastName": "Chan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010483",
+    "firstName": "KHOON LIN",
+    "lastName": "WONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010484",
+    "firstName": "Kuek Moy",
+    "lastName": "CHONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010486",
+    "firstName": "Jia Xin",
+    "lastName": "Kaur",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010488",
+    "firstName": "Sarah",
+    "lastName": "Thompson",
+    "email": null,
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010498",
+    "firstName": "Jarius Xu Yang (Huang Xu Yang)",
+    "lastName": "Rong",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:34",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010522",
+    "firstName": "Yisi",
+    "lastName": "Lim",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:35",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010548",
+    "firstName": "TAY CHYE",
+    "lastName": "Chang",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:32",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010574",
+    "firstName": "Fong Kuen",
+    "lastName": "RAJA",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:33",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010577",
+    "firstName": "Danalaksmi",
     "lastName": "Tay",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-05-17T19:11:59",
+    "lastModified": "2026-05-26T23:06:34",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350604",
-    "firstName": "REN JIE JONATHAN",
-    "lastName": "NG",
+    "userId": "3010580",
+    "firstName": "Siwei",
+    "lastName": "Mohamed Noor",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-05-17T19:11:59",
+    "lastModified": "2026-05-26T23:06:34",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "2350802",
-    "firstName": "Tamara Ana",
-    "lastName": "NG",
+    "userId": "3010599",
+    "firstName": "Huihui",
+    "lastName": "AMIN",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-05-17T19:12:00",
+    "lastModified": "2026-05-26T23:06:35",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3003477",
-    "firstName": "MINLIANG",
-    "lastName": "MUHD",
+    "userId": "3010648",
+    "firstName": "Mei Yan",
+    "lastName": "TOH",
     "email": "dummy@successfactors.com",
-    "status": "f",
-    "lastModified": "2026-05-29T14:12:52",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:32",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3010199",
-    "firstName": "Johnny",
-    "lastName": "Liao",
-    "email": "jonnyliao@successfactors.com",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-05-29T14:12:32"
-  },
-  {
-    "userId": "3013365",
-    "firstName": "AH HONG",
+    "userId": "3010653",
+    "firstName": "JIALING DERELYN",
     "lastName": "TAN",
-    "email": "eldwin.tan2@ncs.com.sg",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-06-02T02:34:10"
-  },
-  {
-    "userId": "3015001",
-    "firstName": "SITI NUR",
-    "lastName": "Hassan",
     "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:12:11",
+    "lastModified": "2026-05-26T23:06:33",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015002",
-    "firstName": "Daniel",
-    "lastName": "Wong",
-    "email": "daniel.wong@successfactors.com",
+    "userId": "3010668",
+    "firstName": "JIA YAN",
+    "lastName": "Zaw",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:15:45",
+    "lastModified": "2026-05-26T23:06:34",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015003",
-    "firstName": "Amira",
-    "lastName": "Binte Ali",
-    "email": "amira.ali@successfactors.com",
+    "userId": "3010703",
+    "firstName": "YUN TUCK",
+    "lastName": "Yip",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:37",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010747",
+    "firstName": "Matthew Mattathias",
+    "lastName": "Shbli",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:34",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010770",
+    "firstName": "KHIM CHUAN",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:36",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010772",
+    "firstName": "Saravanan",
+    "lastName": "Sia",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:36",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010774",
+    "firstName": "Geok Pin",
+    "lastName": "CHIEN",
+    "email": "dummy@successfactors.com",
     "status": "f",
-    "lastModified": "2026-06-02T10:18:20",
+    "lastModified": "2026-05-26T23:06:36",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015004",
-    "firstName": "Rajesh",
-    "lastName": "Kumar",
-    "email": "rajesh.kumar@successfactors.com",
+    "userId": "3010775",
+    "firstName": "Yue Cee Miier",
+    "lastName": "Gopalan",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:20:33",
+    "lastModified": "2026-05-26T23:06:36",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015005",
-    "firstName": "Lim",
-    "lastName": "Wei Ming",
-    "email": "weiming.lim@successfactors.com",
+    "userId": "3010789",
+    "firstName": "SEW LIAN",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:22:10",
+    "lastModified": "2026-05-26T23:06:37",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015006",
-    "firstName": "Nurul",
-    "lastName": "Syafiqah",
-    "email": "nurul.syafiqah@successfactors.com",
+    "userId": "3010821",
+    "firstName": "Yong Jun",
+    "lastName": "U",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:25:00",
+    "lastModified": "2026-05-26T23:06:34",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015007",
-    "firstName": "Marcus",
-    "lastName": "Tan",
-    "email": "marcus.tan@successfactors.com",
+    "userId": "3010828",
+    "firstName": "Mohamed Arif Bin",
+    "lastName": "Binte Azni",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:34",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010864",
+    "firstName": "87FF2D",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:01:38",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010881",
+    "firstName": "YU HAO",
+    "lastName": "NG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:32",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3010888",
+    "firstName": "Kan Tee",
+    "lastName": "NGUYEN",
+    "email": "dummy@successfactors.com",
     "status": "f",
-    "lastModified": "2026-06-02T10:27:41",
+    "lastModified": "2026-05-26T23:06:33",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015008",
-    "firstName": "Chen",
-    "lastName": "Xiu Ying",
-    "email": "xiu.ying.chen@successfactors.com",
+    "userId": "3010889",
+    "firstName": "BOON GAY",
+    "lastName": "Man",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:30:12",
+    "lastModified": "2026-05-26T23:06:33",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015009",
-    "firstName": "Arjun",
-    "lastName": "Menon",
-    "email": "arjun.menon@successfactors.com",
+    "userId": "3010924",
+    "firstName": "Chin Fong",
+    "lastName": "P",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:32:55",
+    "lastModified": "2026-05-26T23:06:36",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015010",
-    "firstName": "Jessica",
-    "lastName": "Ng",
-    "email": "jessica.ng@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:35:18",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015011",
-    "firstName": "Melissa",
-    "lastName": "Goh",
-    "email": "melissa.goh@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:40:12",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015012",
-    "firstName": "Karthik",
-    "lastName": "Subramaniam",
-    "email": "karthik.subramaniam@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:42:33",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015013",
-    "firstName": "Nur",
-    "lastName": "Aisyah",
-    "email": "nur.aisyah@successfactors.com",
+    "userId": "3010934",
+    "firstName": "PENG WEI",
+    "lastName": "SHAMSUDIN",
+    "email": "dummy@successfactors.com",
     "status": "f",
-    "lastModified": "2026-06-02T10:44:05",
+    "lastModified": "2026-05-26T23:06:37",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015014",
-    "firstName": "Jason",
-    "lastName": "Lee",
-    "email": "jason.lee@successfactors.com",
+    "userId": "3011063",
+    "firstName": "SWEE SENG",
+    "lastName": "Lakshmi",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T10:46:18",
+    "lastModified": "2026-05-26T23:06:41",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015015",
-    "firstName": "Priscilla",
-    "lastName": "Tan",
-    "email": "priscilla.tan@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:48:59",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015016",
-    "firstName": "Muhammad",
-    "lastName": "Faizal",
-    "email": "muhammad.faizal@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:51:21",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015017",
-    "firstName": "Shanice",
-    "lastName": "Ong",
-    "email": "shanice.ong@successfactors.com",
+    "userId": "3011066",
+    "firstName": "JUN YUAN JARRAD",
+    "lastName": "HUANG",
+    "email": "dummy@successfactors.com",
     "status": "f",
-    "lastModified": "2026-06-02T10:53:44",
+    "lastModified": "2026-05-26T23:06:38",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015018",
-    "firstName": "Vincent",
-    "lastName": "Chua",
-    "email": "vincent.chua@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:56:10",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015019",
-    "firstName": "Hui Ling",
-    "lastName": "Lim",
-    "email": "huiling.lim@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T10:58:37",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015020",
-    "firstName": "Aidan",
-    "lastName": "Khoo",
-    "email": "aidan.khoo@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:00:55",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015021",
-    "firstName": "Elaine",
-    "lastName": "Wong",
-    "email": "elaine.wong@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:03:12",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015022",
-    "firstName": "Rahim",
-    "lastName": "Ibrahim",
-    "email": "rahim.ibrahim@successfactors.com",
-    "status": "f",
-    "lastModified": "2026-06-02T11:05:30",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015023",
-    "firstName": "Serene",
-    "lastName": "Tan",
-    "email": "serene.tan@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:07:48",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015024",
-    "firstName": "Benjamin",
-    "lastName": "Ng",
-    "email": "benjamin.ng@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:10:05",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015025",
-    "firstName": "Farah",
-    "lastName": "Hassan",
-    "email": "farah.hassan@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:12:26",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015026",
-    "firstName": "Kevin",
+    "userId": "3011073",
+    "firstName": "Kwa",
     "lastName": "Teo",
-    "email": "kevin.teo@successfactors.com",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:14:40",
+    "lastModified": "2026-05-26T23:06:39",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015027",
-    "firstName": "Liyana",
-    "lastName": "Rahman",
-    "email": "liyana.rahman@successfactors.com",
+    "userId": "3011099",
+    "firstName": "HONG HIOK",
+    "lastName": "LOH",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:16:58",
+    "lastModified": "2026-05-26T23:06:41",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015028",
-    "firstName": "Darren",
-    "lastName": "Lim",
-    "email": "darren.lim@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:19:15",
+    "userId": "3011121",
+    "firstName": null,
+    "lastName": "Fang",
+    "email": "dummy@fairprt1test.com.sg",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:43",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015029",
-    "firstName": "Cheryl",
-    "lastName": "Foo",
-    "email": "cheryl.foo@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:21:33",
+    "userId": "3011389",
+    "firstName": "Prabhakaran",
+    "lastName": "Ga",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:45",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015030",
-    "firstName": "Irfan",
-    "lastName": "Salleh",
-    "email": "irfan.salleh@successfactors.com",
+    "userId": "3011394",
+    "firstName": "Weng Chong",
+    "lastName": "TAY",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:23:50",
+    "lastModified": "2026-05-26T23:06:46",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015031",
-    "firstName": "Natalie",
-    "lastName": "Goh",
-    "email": "natalie.goh@successfactors.com",
+    "userId": "3011395",
+    "firstName": "PUAY HWANG",
+    "lastName": "Ooi",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:26:10",
+    "lastModified": "2026-05-26T23:06:46",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015032",
-    "firstName": "Muhammad",
-    "lastName": "Hakim",
-    "email": "muhammad.hakim@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:28:22",
+    "userId": "3011402",
+    "firstName": "DONOVAN",
+    "lastName": "Zainul",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:46",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015033",
-    "firstName": "Eunice",
+    "userId": "3011413",
+    "firstName": "Ming",
+    "lastName": "Osman",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:41",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011426",
+    "firstName": "Sollie",
+    "lastName": "GAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:42",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011435",
+    "firstName": "Wee Siong",
+    "lastName": "NOR ZULIANA BINTI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:42",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011485",
+    "firstName": "Xiangchao",
+    "lastName": "LEONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011487",
+    "firstName": "BIN LUKMAN",
+    "lastName": "Antoni Samy",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011500",
+    "firstName": "Hock Cheng",
+    "lastName": "SITI NORHIDAYU",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:41",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011595",
+    "firstName": "KOK LIN",
+    "lastName": "LAM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:42",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011710",
+    "firstName": "Tiffany Feng Zhi",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011717",
+    "firstName": "Ngia Di Angela",
+    "lastName": "LEE",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:46",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011724",
+    "firstName": "YET NEO",
+    "lastName": "HNG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011733",
+    "firstName": "Antony",
     "lastName": "Tan",
-    "email": "eunice.tan@successfactors.com",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:30:05",
+    "lastModified": "2026-05-26T23:06:47",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015034",
-    "firstName": "Ryan",
-    "lastName": "Lim",
-    "email": "ryan.lim@successfactors.com",
+    "userId": "3011735",
+    "firstName": "YING RUI",
+    "lastName": "HENG",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:32:18",
+    "lastModified": "2026-05-26T23:06:48",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015035",
-    "firstName": "Jasmine",
-    "lastName": "Chua",
-    "email": "jasmine.chua@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:34:40",
+    "userId": "3011737",
+    "firstName": "Yan Kuan",
+    "lastName": "Roslan",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:48",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015036",
-    "firstName": "Suresh",
-    "lastName": "Nair",
-    "email": "suresh.nair@successfactors.com",
+    "userId": "3011748",
+    "firstName": "LAI PING",
+    "lastName": "OH",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:36:55",
+    "lastModified": "2026-05-26T23:06:49",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015037",
-    "firstName": "Michelle",
-    "lastName": "Ong",
-    "email": "michelle.ong@successfactors.com",
+    "userId": "3011768",
+    "firstName": "ZHENHUA",
+    "lastName": "Ang",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:39:12",
+    "lastModified": "2026-05-26T23:06:45",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015038",
-    "firstName": "Adrian",
-    "lastName": "Teo",
-    "email": "adrian.teo@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:41:33",
+    "userId": "3011780",
+    "firstName": "Kaladevi Vellu",
+    "lastName": "YU",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:46",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015039",
-    "firstName": "Nur",
-    "lastName": "Faridah",
-    "email": "nur.faridah@successfactors.com",
+    "userId": "3011789",
+    "firstName": "YONG HUA WILSON",
+    "lastName": "Mahbob",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:43:47",
+    "lastModified": "2026-05-26T23:06:46",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015040",
-    "firstName": "Leonard",
+    "userId": "3011800",
+    "firstName": "THIAN HOCK",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:47",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011810",
+    "firstName": "Nurul Farahizatul Ulia Binte",
+    "lastName": "Huang",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011814",
+    "firstName": "KRISTINA CAIN",
+    "lastName": "LAI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011862",
+    "firstName": "JING YI",
+    "lastName": "SHARINA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011867",
+    "firstName": "WEN WEI",
+    "lastName": "Joy Benter",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011869",
+    "firstName": "Eng Tiong",
+    "lastName": "ASWINI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011888",
+    "firstName": "YIT FAA",
+    "lastName": "Permana",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011892",
+    "firstName": "CHEK SIONG",
+    "lastName": "NAI",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011924",
+    "firstName": "Binte Roshati",
+    "lastName": "Mok",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:48",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011944",
+    "firstName": "JUN HAO MARCUS",
+    "lastName": "HEING",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011976",
+    "firstName": "LEE KIEW",
+    "lastName": "WANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:52",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011995",
+    "firstName": "Roskalzana Binte",
+    "lastName": "TAY",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3011998",
+    "firstName": "ZHI RONG GARY",
+    "lastName": "Kong",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012020",
+    "firstName": "SIEW NGOH",
+    "lastName": "LAI",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012025",
+    "firstName": "Lalitha",
     "lastName": "Wong",
-    "email": "leonard.wong@successfactors.com",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:45:59",
+    "lastModified": "2026-04-09T19:11:30",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015041",
-    "firstName": "Seraphina",
-    "lastName": "Lim",
-    "email": "seraphina.lim@successfactors.com",
+    "userId": "3012062",
+    "firstName": "King Eng",
+    "lastName": "LIM",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:48:10",
+    "lastModified": "2026-05-26T23:06:52",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015042",
-    "firstName": "Imran",
-    "lastName": "Mohamed",
-    "email": "imran.mohamed@successfactors.com",
+    "userId": "3012067",
+    "firstName": "HADIJAH",
+    "lastName": "TAN",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:50:25",
+    "lastModified": "2026-05-26T23:06:52",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015043",
-    "firstName": "Clara",
-    "lastName": "Ng",
-    "email": "clara.ng@successfactors.com",
+    "userId": "3012072",
+    "firstName": "XU HONG JAVIN",
+    "lastName": "Chew",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-02T11:52:41",
+    "lastModified": "2026-05-26T23:06:53",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
-    "userId": "3015044",
-    "firstName": "Jonathan",
-    "lastName": "Sim",
-    "email": "jonathan.sim@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:54:58",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015045",
-    "firstName": "Alicia",
-    "lastName": "Tan",
-    "email": "alicia.tan@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:57:12",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015046",
-    "firstName": "Farhan",
-    "lastName": "Rahman",
-    "email": "farhan.rahman@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T11:59:26",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015047",
-    "firstName": "Vanessa",
-    "lastName": "Chong",
-    "email": "vanessa.chong@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T12:01:40",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015048",
-    "firstName": "Keith",
-    "lastName": "Low",
-    "email": "keith.low@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T12:03:55",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015049",
-    "firstName": "Sharon",
-    "lastName": "Foo",
-    "email": "sharon.foo@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T12:06:09",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015050",
-    "firstName": "Ethan",
-    "lastName": "Tan",
-    "email": "ethan.tan@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-06-02T12:08:22",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)"
-  },
-  {
-    "userId": "3015051",
-    "firstName": "ALFONSO",
-    "lastName": "CRUZ",
-    "email": "rowena.yeo@ntuclhub.com",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-06-08T07:01:17"
-  },
-  {
-    "userId": "3015052",
-    "firstName": "BOON HAO ALFRED",
+    "userId": "3012074",
+    "firstName": "CHOON MENG",
     "lastName": "CHONG",
-    "email": "nicholas.quek@ncs.com.sg",
-    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "email": "dummy@successfactors.com",
     "status": "t",
-    "lastModified": "2026-06-08T07:01:51"
+    "lastModified": "2026-05-26T23:06:53",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012107",
+    "firstName": "7B2ACEFAE5E68EFE",
+    "lastName": "Abas",
+    "email": "dummy@successfactors.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:50",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012118",
+    "firstName": "BOON KIAT",
+    "lastName": "DONG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012139",
+    "firstName": "Teck Jenn",
+    "lastName": "JANICE ANG",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T03:11:37",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012153",
+    "firstName": "PATHCHIMUTHU",
+    "lastName": "CHEW",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:54",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012155",
+    "firstName": "Priyanka",
+    "lastName": "NG",
+    "email": null,
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:54",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012199",
+    "firstName": "BTE SLAMAT",
+    "lastName": "Yangzon",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:51",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012202",
+    "firstName": "F88FE62E8AB972A",
+    "lastName": "CHAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-06T19:11:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012204",
+    "firstName": "TECK CHENG",
+    "lastName": "EVIE",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-06T19:11:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012215",
+    "firstName": "2F9DD84907136",
+    "lastName": "SARAVANAN IYAN",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-18T19:11:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012287",
+    "firstName": "7FBF0D57810AFD5",
+    "lastName": "Juma'at",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-18T19:11:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012288",
+    "firstName": "2F5FD6BE",
+    "lastName": "MOHANAMBAL",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-06T19:11:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012309",
+    "firstName": "MARIE PANA",
+    "lastName": "Cheah",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-04T19:12:04",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012325",
+    "firstName": "LEE YONG",
+    "lastName": "MAZNITA",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-04-13T19:11:26",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012880",
+    "firstName": "HRMS User",
+    "lastName": "1",
+    "email": "HrmsUser1@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012881",
+    "firstName": "HRMS User 2",
+    "lastName": "2",
+    "email": "HrmsUser2@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012882",
+    "firstName": "HRMS User 3",
+    "lastName": "3",
+    "email": "HrmsUser3@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012889",
+    "firstName": "Emma",
+    "lastName": "Lighthood",
+    "email": "hrms_sit_emma@mvpt.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012890",
+    "firstName": "SIT John",
+    "lastName": "Smith",
+    "email": "hrms_sit_john.smith@gmail.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012891",
+    "firstName": "SIT Emily",
+    "lastName": "Johnson",
+    "email": "hrms_sit_emily.johnson@lhub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012892",
+    "firstName": "SIT Michael",
+    "lastName": "Brown",
+    "email": "hrms_sit_michael.brown@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012893",
+    "firstName": "Soh Lan",
+    "lastName": "Koh",
+    "email": "dummy@successfactors.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3012898",
+    "firstName": "SIT James",
+    "lastName": "Anderson",
+    "email": "hrms_sit_james.anderson@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:57",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013008",
+    "firstName": "SIT New",
+    "lastName": "One",
+    "email": "hrms_sit_new.one@gmail.com",
+    "status": "t",
+    "lastModified": "2026-01-28T05:01:01",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013009",
+    "firstName": "SIT New",
+    "lastName": "Two",
+    "email": "hrms_sit_new.two@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013010",
+    "firstName": "SIT New",
+    "lastName": "Three",
+    "email": "hrms_sit_new.three@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013016",
+    "firstName": "SIT TPST",
+    "lastName": "Timer One",
+    "email": "hrmssit.tpsttimer@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013017",
+    "firstName": "SIT TPST",
+    "lastName": "Timer Two",
+    "email": "hrmssit.tpsttimer@gmail.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:56",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013054",
+    "firstName": "PROXYUAT",
+    "lastName": "OFFQAIZI1 21902",
+    "email": "bryant21894@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013055",
+    "firstName": "Verify1",
+    "lastName": "user1",
+    "email": "verify1@ntuclearninghub.com",
+    "status": "t",
+    "lastModified": "2026-05-26T23:06:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013059",
+    "firstName": "PROXYUAT",
+    "lastName": "OFFQAIZI2 21895",
+    "email": "izi21895@ntuclearninghub.com",
+    "status": "f",
+    "lastModified": "2026-05-26T23:06:55",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013060",
+    "firstName": "TAN AH HONG",
+    "lastName": "",
+    "email": "eldwin.tan2@ncs.com.sg",
+    "status": "t",
+    "lastModified": "2026-06-08T09:56:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013061",
+    "firstName": "ALFONSO CRUZ",
+    "lastName": "",
+    "email": "rowena.yeo@ntuclhub.com",
+    "status": "t",
+    "lastModified": "2026-06-08T09:56:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
+  },
+  {
+    "userId": "3013062",
+    "firstName": "ALFRED CHONG BOON HAO",
+    "lastName": "",
+    "email": "nicholas.quek@ncs.com.sg",
+    "status": "t",
+    "lastModified": "2026-06-08T09:56:49",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)"
   }
 ]
