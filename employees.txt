@@ -6487,5 +6487,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-06-17T03:47:17"
+  },
+  {
+    "userId": "3013065",
+    "firstName": "BOON HENG",
+    "lastName": "ALFRED CHONG",
+    "email": "nicholas.quek@ncs.com.sg",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-06-17T03:47:47"
   }
 ]
