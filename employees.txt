@@ -2,7 +2,6 @@
   {
     "userId": "1109295",
     "firstName": "Yun Ji Andrew",
-
     "lastName": "CECILIA ANBUKELE",
     "email": "dummy@successfactors.com",
     "status": "t",
@@ -6497,5 +6496,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-06-17T05:43:47"
+  },
+  {
+    "userId": "3013068",
+    "firstName": "ECHO",
+    "lastName": "XIAO",
+    "email": "mason.sim@ncs.co",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-06-17T06:00:05"
   }
 ]
