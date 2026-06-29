@@ -6721,5 +6721,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-06-29T02:24:26"
+  },
+  {
+    "userId": "3013093",
+    "firstName": "Octavio",
+    "lastName": "Salas",
+    "email": "nicholas.quek@ncs.com.sg",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-06-29T02:44:41"
   }
 ]
