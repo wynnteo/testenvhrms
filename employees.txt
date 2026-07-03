@@ -6784,5 +6784,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-07-03T07:41:11"
+  },
+  {
+    "userId": "3013100",
+    "firstName": "Alberte",
+    "lastName": "Larsen",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-03T07:41:35"
   }
 ]
