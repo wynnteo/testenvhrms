@@ -6937,5 +6937,59 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-07-06T07:09:59"
+  },
+  {
+    "userId": "3013117",
+    "firstName": "Daniel",
+    "lastName": "Kristinsson",
+    "email": "nicholas.quek@ncs.com.sg",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:02"
+  },
+  {
+    "userId": "3013118",
+    "firstName": "Gennaro",
+    "lastName": "Bertani",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:17"
+  },
+  {
+    "userId": "3013119",
+    "firstName": "Aaron",
+    "lastName": "Williams",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:27"
+  },
+  {
+    "userId": "3013120",
+    "firstName": "Jude",
+    "lastName": "King",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:39"
+  },
+  {
+    "userId": "3013121",
+    "firstName": "Elliot",
+    "lastName": "Kaur",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:50"
+  },
+  {
+    "userId": "3013122",
+    "firstName": "Oscar",
+    "lastName": "Maguire",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:20:59"
   }
 ]
