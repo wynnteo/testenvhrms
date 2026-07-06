@@ -7027,5 +7027,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "t",
     "lastModified": "2026-07-06T07:59:01"
+  },
+  {
+    "userId": "3013127",
+    "firstName": "ANDIKA BIN",
+    "lastName": "TAUFAN",
+    "email": "dummy@successfactors.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-06T07:59:36"
   }
 ]
