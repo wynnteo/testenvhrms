@@ -6931,7 +6931,7 @@
   },
   {
     "userId": "3013116",
-    "firstName": "CHANG HUAT ERIC	d",
+    "firstName": "CHANG HUAT ERIC",
     "lastName": "TAN",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
