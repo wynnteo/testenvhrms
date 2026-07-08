@@ -10,6 +10,8 @@ function nowISO() {
 // Starting point used only when there are no existing employees yet.
 const USERID_START = 9990001;
 
+// Finds the highest existing numeric userId and returns the next one.
+// Falls back to USERID_START if the list is empty or has no numeric ids.
 function getNextUserId(employees) {
   let max = USERID_START - 1;
   for (const emp of employees) {
