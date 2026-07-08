@@ -7367,8 +7367,8 @@
     "lastName": "Nordin",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T01:18:16"
+    "status": "f",
+    "lastModified": "2026-07-08T01:27:47"
   },
   {
     "userId": "3013165",
