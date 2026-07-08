@@ -7304,8 +7304,8 @@
     "lastName": "Diallo",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "f",
-    "lastModified": "2026-07-08T01:38:21"
+    "status": "t",
+    "lastModified": "2026-07-08T02:23:53"
   },
   {
     "userId": "3013158",
