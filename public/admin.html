@@ -171,8 +171,6 @@
 
   const USERID_START = 9990001;
 
-  // Mirrors the server-side logic in api/admin/action.js so the field can
-  // be pre-filled before the user submits the form.
   function suggestNextUserId(employees) {
     let max = USERID_START - 1;
     for (const emp of employees) {
@@ -202,9 +200,11 @@
 
   function fillSuggestedUserId() {
     const field = document.getElementById("f-userId");
+    const suggested = suggestNextUserId(lastKnownEmployees);
+    console.log(`[userId suggestion] scanned ${lastKnownEmployees.length} employees, suggesting ${suggested}`);
     // Only overwrite if the user hasn't typed their own value.
     if (!field.dataset.userEdited) {
-      field.value = suggestNextUserId(lastKnownEmployees);
+      field.value = suggested;
     }
   }
 
@@ -286,7 +286,7 @@
       delete idField.dataset.userEdited;
       await loadEmployees();
     } catch (err) {
-      flash(err.message, false);
+      flash("❌ " + err.message, false);
     } finally {
       btn.disabled = false;
       btn.textContent = "Hire Employee";
