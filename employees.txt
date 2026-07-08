@@ -7295,8 +7295,8 @@
     "lastName": "Leclercq",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "f",
-    "lastModified": "2026-07-08T01:38:17"
+    "status": "t",
+    "lastModified": "2026-07-08T02:23:52"
   },
   {
     "userId": "3013157",
