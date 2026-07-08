@@ -7421,8 +7421,8 @@
     "lastName": "Laurent",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T02:33:03"
+    "status": "f",
+    "lastModified": "2026-07-08T03:13:21"
   },
   {
     "userId": "3013171",
