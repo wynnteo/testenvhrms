@@ -7457,8 +7457,8 @@
     "lastName": "Niskanen",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T08:42:09"
+    "status": "f",
+    "lastModified": "2026-07-08T08:49:29"
   },
   {
     "userId": "3013175",
