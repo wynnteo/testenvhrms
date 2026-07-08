@@ -7475,8 +7475,8 @@
     "lastName": "Cattani",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T08:42:25"
+    "status": "f",
+    "lastModified": "2026-07-08T08:49:33"
   },
   {
     "userId": "3013177",
