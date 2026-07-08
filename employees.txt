@@ -7376,8 +7376,8 @@
     "lastName": "Olsen",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T01:18:29"
+    "status": "f",
+    "lastModified": "2026-07-08T01:27:56"
   },
   {
     "userId": "3013166",
