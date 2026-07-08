@@ -7,6 +7,18 @@ function nowISO() {
   return new Date().toISOString().replace(/\.\d+Z$/, "").replace("T", "T");
 }
 
+// Starting point used only when there are no existing employees yet.
+const USERID_START = 9990001;
+
+function getNextUserId(employees) {
+  let max = USERID_START - 1;
+  for (const emp of employees) {
+    const n = parseInt(emp.userId, 10);
+    if (!isNaN(n) && n > max) max = n;
+  }
+  return String(max + 1);
+}
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -23,14 +35,22 @@ export default async function handler(req, res) {
     const { employees, sha } = await readEmployees();
 
     if (action === "add") {
-      if (!userId || !firstName || !lastName) {
-        return res.status(400).json({ ok: false, error: "userId, firstName, lastName required" });
+      if (!firstName || !lastName) {
+        return res.status(400).json({ ok: false, error: "firstName, lastName required" });
       }
-      if (employees.find(e => e.userId === userId)) {
-        return res.status(400).json({ ok: false, error: `User ID ${userId} already exists` });
+
+      // If the client left userId blank, auto-generate the next one.
+      // If they provided a value (e.g. edited the pre-filled suggestion),
+      // use it as long as it doesn't collide with an existing record.
+      let newUserId = (userId || "").trim();
+      if (!newUserId) {
+        newUserId = getNextUserId(employees);
+      } else if (employees.find(e => e.userId === newUserId)) {
+        return res.status(400).json({ ok: false, error: `User ID ${newUserId} already exists` });
       }
+
       employees.push({
-        userId,
+        userId: newUserId,
         firstName,
         lastName,
         email: email || "dummy@successfactors.com",
@@ -39,7 +59,7 @@ export default async function handler(req, res) {
         lastModified: nowISO(),
       });
       await writeEmployees(employees, sha);
-      return res.json({ ok: true, message: `Employee ${firstName} ${lastName} hired` });
+      return res.json({ ok: true, message: `Employee ${firstName} ${lastName} hired with User ID ${newUserId}`, userId: newUserId });
     }
 
     if (action === "terminate") {
