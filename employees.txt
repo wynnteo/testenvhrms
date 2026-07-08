@@ -7448,8 +7448,8 @@
     "lastName": "Ivanovs",
     "email": "nicholas.quek@ncs.com.sg",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T08:41:35"
+    "status": "f",
+    "lastModified": "2026-07-08T08:49:28"
   },
   {
     "userId": "3013174",
