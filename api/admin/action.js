@@ -13,12 +13,12 @@ const USERID_START = 9990001;
 // Finds the highest existing numeric userId and returns the next one.
 // Falls back to USERID_START if the list is empty or has no numeric ids.
 function getNextUserId(employees) {
-  let max = USERID_START - 1;
+  let max = null;
   for (const emp of employees) {
     const n = parseInt(emp.userId, 10);
-    if (!isNaN(n) && n > max) max = n;
+    if (!isNaN(n) && (max === null || n > max)) max = n;
   }
-  return String(max + 1);
+  return max === null ? String(USERID_START) : String(max + 1);
 }
 
 export default async function handler(req, res) {
