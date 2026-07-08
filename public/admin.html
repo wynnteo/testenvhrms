@@ -92,6 +92,9 @@
   <!-- Hire form -->
   <div class="card">
     <h2>➕ Hire New Employee</h2>
+    <p style="font-size:0.82rem;color:#718096;margin-top:-4px;">
+      User ID is suggested automatically — edit it if you need a specific value.
+    </p>
     <div class="grid2">
       <div>
         <label>User ID *</label>
@@ -166,17 +169,42 @@
     setTimeout(() => el.className = "flash", 4000);
   }
 
+  const USERID_START = 9990001;
+
+  // Mirrors the server-side logic in api/admin/action.js so the field can
+  // be pre-filled before the user submits the form.
+  function suggestNextUserId(employees) {
+    let max = USERID_START - 1;
+    for (const emp of employees) {
+      const n = parseInt(emp.userId, 10);
+      if (!isNaN(n) && n > max) max = n;
+    }
+    return String(max + 1);
+  }
+
+  let lastKnownEmployees = [];
+
   async function loadEmployees() {
     try {
       const res = await fetch("/api/admin/employees");
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
+      lastKnownEmployees = data.employees;
       renderTable(data.employees);
       document.getElementById("table-heading").textContent =
         `👥 Employee List (${data.employees.length} records)`;
+      fillSuggestedUserId();
     } catch (err) {
       document.getElementById("emp-tbody").innerHTML =
         `<tr class="loading-row"><td colspan="6" style="color:#e53e3e">Error: ${err.message}</td></tr>`;
+    }
+  }
+
+  function fillSuggestedUserId() {
+    const field = document.getElementById("f-userId");
+    // Only overwrite if the user hasn't typed their own value.
+    if (!field.dataset.userEdited) {
+      field.value = suggestNextUserId(lastKnownEmployees);
     }
   }
 
@@ -251,12 +279,14 @@
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
       flash("" + data.message);
-      // clear form
-      ["f-userId","f-firstName","f-lastName"].forEach(id =>
+      // clear form and let the User ID field re-suggest the next value
+      ["f-firstName","f-lastName"].forEach(id =>
         document.getElementById(id).value = "");
+      const idField = document.getElementById("f-userId");
+      delete idField.dataset.userEdited;
       await loadEmployees();
     } catch (err) {
-      flash("❌ " + err.message, false);
+      flash(err.message, false);
     } finally {
       btn.disabled = false;
       btn.textContent = "Hire Employee";
@@ -264,6 +294,9 @@
   }
 
   // Load on page ready
+  document.getElementById("f-userId").addEventListener("input", (e) => {
+    e.target.dataset.userEdited = "true";
+  });
   loadEmployees();
 </script>
 </body>
