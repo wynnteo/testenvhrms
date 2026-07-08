@@ -7277,8 +7277,8 @@
     "lastName": "Olsson",
     "email": "dummy@successfactors.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "t",
-    "lastModified": "2026-07-08T02:23:49"
+    "status": "f",
+    "lastModified": "2026-07-08T02:23:58"
   },
   {
     "userId": "3013155",
