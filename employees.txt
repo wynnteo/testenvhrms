@@ -7504,5 +7504,14 @@
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
     "status": "f",
     "lastModified": "2026-07-09T02:41:41"
+  },
+  {
+    "userId": "3013180",
+    "firstName": "GARY",
+    "lastName": "LEE",
+    "email": "myinfotesting@gmail.com",
+    "custom05": "NTUC LearningHub Pte Ltd (L100)",
+    "status": "t",
+    "lastModified": "2026-07-09T07:49:32"
   }
 ]
