@@ -7511,8 +7511,8 @@
     "lastName": "LEE",
     "email": "myinfotesting@gmail.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "f",
-    "lastModified": "2026-07-09T08:13:45"
+    "status": "t",
+    "lastModified": "2026-07-09T08:17:41"
   },
   {
     "userId": "3013181",
