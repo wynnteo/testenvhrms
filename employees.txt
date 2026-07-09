@@ -7493,8 +7493,8 @@
     "lastName": "CLARISSA LIN",
     "email": "myinfotesting@gmail.com",
     "custom05": "NTUC LearningHub Pte Ltd (L100)",
-    "status": "f",
-    "lastModified": "2026-07-09T02:29:57"
+    "status": "t",
+    "lastModified": "2026-07-09T02:41:33"
   },
   {
     "userId": "3013179",
