@@ -1,90 +1,103 @@
-// lib/github-store.js
-// Reads and writes employees.txt / trainingrecords.txt in your GitHub repo
-// as persistent storage (no database needed).
+// api/learningrecords.js
+// Mocks: POST /hrms/hrmshub/api/v1/hrms/company/{hrms_org_code}/learningrecords
+//
+// This does NOT hit SuccessFactors — it emulates your own HRMS Hub Lambda's
+// contract, so you can point your caller at this mock instead of SIT.
+//
+// Behavior mirrors post_employees_training_records() in the real Lambda:
+//   - employeeId is required
+//   - elementId is required (use "0" for new records, matching real SF)
+//   - "duration" must parse as a number (Edm.Double)
+//   - only the first validation failure is reported per record (like real SF)
+//   - response echoes employeeId / elementId / referenceId per record
+//   - accepted records are appended to trainingrecords.txt for inspection
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO  = process.env.GITHUB_REPO;   // e.g. "yourname/mock-sf"
-const BRANCH        = process.env.GITHUB_BRANCH || "main";
+import { readTrainingRecords, writeTrainingRecords } from "../lib/github-store.js";
 
-const EMPLOYEES_PATH = process.env.DATA_PATH || "employees.txt";
-const TRAINING_PATH  = process.env.TRAINING_DATA_PATH || "trainingrecords.txt";
-
-const headers = {
-  "Authorization": `Bearer ${GITHUB_TOKEN}`,
-  "Accept": "application/vnd.github+json",
-  "X-GitHub-Api-Version": "2022-11-28",
-  "Content-Type": "application/json",
-};
-
-function apiBaseFor(path) {
-  return `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`;
+function isPresent(value) {
+  return value !== null && value !== undefined && String(value).trim() !== "";
 }
 
-// Generic read: fetches a JSON-encoded file from the repo.
-// Returns { data, sha }. If the file doesn't exist yet, returns the
-// provided default and sha: null (first write will create the file).
-async function readJSONFile(path, getDefault) {
-  const res = await fetch(`${apiBaseFor(path)}?ref=${BRANCH}`, { headers });
-  if (res.status === 404) return { data: getDefault(), sha: null };
-  if (!res.ok) throw new Error(`GitHub read failed: ${res.status}`);
-  const data = await res.json();
-  const content = Buffer.from(data.content, "base64").toString("utf-8");
-  return { data: JSON.parse(content), sha: data.sha };
+function isValidDuration(value) {
+  if (!isPresent(value)) return false;
+  const n = parseFloat(value);
+  return !isNaN(n) && isFinite(n);
 }
 
-// Generic write: writes a JSON-encoded file back to the repo.
-async function writeJSONFile(path, value, sha, message) {
-  const content = Buffer.from(JSON.stringify(value, null, 2)).toString("base64");
-  const body = {
-    message,
-    content,
-    branch: BRANCH,
-    ...(sha ? { sha } : {}),
-  };
-  const res = await fetch(apiBaseFor(path), {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`GitHub write failed: ${res.status} ${err}`);
+// Returns an error message for the first failing validation, or null if the
+// record passes. Mirrors real SF's behavior of reporting one error at a time.
+function validateRecord(rec) {
+  if (!isPresent(rec.employeeId)) {
+    return `Property employeeId is required.`;
   }
+  if (!isPresent(rec.elementId)) {
+    return `Property elementId is required.`;
+  }
+  if (!isValidDuration(rec.duration)) {
+    return `Property duration has invalid value. For input string: "${rec.duration}", required type is Edm.Double.`;
+  }
+  return null;
 }
 
-export async function readEmployees() {
-  const { data, sha } = await readJSONFile(EMPLOYEES_PATH, defaultEmployees);
-  return { employees: data, sha };
-}
+export default async function handler(req, res) {
+  console.log("learningrecords handler hit:", req.method, req.url, req.query);
+  res.setHeader("Access-Control-Allow-Origin", "*");
 
-export async function writeEmployees(employees, sha) {
-  await writeJSONFile(EMPLOYEES_PATH, employees, sha, `chore: update employees [skip ci]`);
-}
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method not allowed" });
+  }
 
-// Training records (learningrecords endpoint) — stored separately so it
-// doesn't collide with employees.txt.
-export async function readTrainingRecords() {
-  const { data, sha } = await readJSONFile(TRAINING_PATH, () => []);
-  return { records: data, sha };
-}
+  const hrmsOrgCode = req.query.hrms_org_code || "";
+  if (!hrmsOrgCode) {
+    return res.status(400).json({ error: "Failure", detail: "URL missing hrmsOrgCode" });
+  }
 
-export async function writeTrainingRecords(records, sha) {
-  await writeJSONFile(TRAINING_PATH, records, sha, `chore: update training records [skip ci]`);
-}
+  let body = req.body;
+  if (typeof body === "string") {
+    try { body = JSON.parse(body); } catch { body = {}; }
+  }
 
-function defaultEmployees() {
-  const now = new Date().toISOString().replace("T", "T").split(".")[0];
-  return [
-    { userId: "3010190", firstName: "MOY CHAI",        lastName: "Leo",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-12T19:11:50", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "3003593", firstName: "YONG SENG",       lastName: "Lim",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-14T19:12:12", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "3003600", firstName: "Geck Khuan",      lastName: "Abas",  email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-14T19:12:12", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350493", firstName: "Hannah",          lastName: "LEE",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-16T19:11:55", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350716", firstName: "GEK HENG",        lastName: "LEE",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-16T19:11:55", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350822", firstName: "Chee Fun",        lastName: "Aw",    email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-16T19:11:55", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "3010322", firstName: "Daashini",        lastName: "TEO",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-16T19:11:56", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350596", firstName: "Choon Tiong",     lastName: "Tay",   email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-17T19:11:59", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350604", firstName: "REN JIE JONATHAN",lastName: "NG",    email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-17T19:11:59", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "2350802", firstName: "Tamara Ana",      lastName: "NG",    email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-17T19:12:00", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-    { userId: "3003477", firstName: "MINLIANG",        lastName: "MUHD",  email: "dummy@successfactors.com", status: "t", lastModified: "2026-05-17T19:12:00", custom05: "NTUC LearningHub Pte Ltd (L100)" },
-  ];
+  const records = (body && body.records) || [];
+  if (!records.length) {
+    return res.status(400).json({ error: "Failure", detail: "records is required" });
+  }
+
+  try {
+    const { records: stored, sha } = await readTrainingRecords();
+    const receivedAt = new Date().toISOString();
+
+    const results = [];
+    const accepted = [];
+
+    for (const rec of records) {
+      const result = {
+        employeeId: rec.employeeId,
+        elementId: rec.elementId || "0",
+      };
+
+      const error = validateRecord(rec);
+      if (error) {
+        result.error = error;
+      } else {
+        accepted.push({ ...rec, hrmsOrgCode, receivedAt });
+      }
+
+      if (rec.referenceId) result.referenceId = rec.referenceId;
+
+      results.push(result);
+    }
+
+    if (accepted.length) {
+      await writeTrainingRecords([...stored, ...accepted], sha);
+    }
+
+    return res.status(200).json({
+      employees: results,
+      count: results.length,
+      hrmsOrgCode,
+    });
+  } catch (err) {
+    console.error("learningrecords error:", err);
+    return res.status(500).json({ error: "Failure", detail: "Error while updating" });
+  }
 }
