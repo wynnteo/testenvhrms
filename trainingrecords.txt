@@ -1,0 +1,21 @@
+[
+  {
+    "elementId": "535733",
+    "employeeId": "3004561",
+    "referenceId": "CLS100000001",
+    "email": "dummy@successfactors.com",
+    "enrollmentId": "EMP001",
+    "result": "Passed",
+    "status": "Completed",
+    "courseProvider": "LXP Studio",
+    "productCode": "P001",
+    "courseId": "course-v1:NHealth+DGPDPQZ+2024",
+    "courseTitle": "Data Governance",
+    "startDate": "2026-06-22T16:01:27Z",
+    "endDate": "2026-06-22T16:31:27Z",
+    "duration": "0.5",
+    "unit": "hours",
+    "hrmsOrgCode": "LHUB",
+    "receivedAt": "2026-07-14T06:48:29.963Z"
+  }
+]
