@@ -1,0 +1,25 @@
+ 
+CLS -> HRMS
+ body: {'records': [{'elementId': '0', 'employeeId': '3003391', 'email': 'dummy@successfactors.com', 'enrollmentId': 'APP-26-00030938', 'status': 'completed', 'result': 'Failed', 'courseProvider': 'NTUC LearningHub', 'productCode': 'HRMSSITCourse04', 'courseId': 'HRMSSITCourse04', 'courseTitle': 'HRMSSITCourse04', 'courseCompletion': None, 'startDate': '2026-05-17T16:00:00Z', 'endDate': '2026-05-18T15:59:59Z', 'duration': 11.0, 'unit': 'minutes', 'referenceId': 'a80fcdfd-7948-4571-9861-f8dee67d7cc4'}], 'count': 1}
+
+
+HRMS -> SF
+[{'userId': '3003391', 'courseTitle': 'HRMSSITCourse04', 'courseID': 'HRMSSITCourse04', 'status': 'completed', 'duration': 11.0, 'unit': '100985', 'startDate': '/Date(1779033600000)/', 'endDate': '/Date(1779119999000)/', 'courseProvider': 'NTUC LearningHub', 'pass': 'Failed', '__metadata': {'uri': "Background_TrainingRecords(backgroundElementId=0,userId='3003391')"}}]
+
+
+SF
+{'key': 'Background_TrainingRecords/backgroundElementId=535653,Background_TrainingRecords/userId=3003391', 'status': 'OK', 'editStatus': None, 'message': None, 'index': 0, 'httpCode': 200, 'inlineResults': None}
+
+
+
+CLS -> HRMS
+
+{'records': [{'elementId': '0', 'employeeId': '2350490', 'email': 'dummy@successfactors.com', 'enrollmentId': 'APP-26-00030903', 'status': 'completed', 'result': 'Failed', 'courseProvider': 'NTUC LearningHub', 'productCode': 'HRMSSITCourse04', 'courseId': 'HRMSSITCourse04', 'courseTitle': 'HRMSSITCourse04', 'courseCompletion': None, 'startDate': '2026-05-17T16:00:00Z', 'endDate': '2026-05-18T15:59:59Z', 'duration': 11.0, 'unit': 'minutes', 'referenceId': '71d8223c-b211-4d10-a635-545b9c722416'}], 'count': 1}
+
+HRMS -> SF
+
+[{'userId': '2350490', 'courseTitle': 'HRMSSITCourse04', 'courseID': 'HRMSSITCourse04', 'status': 'completed', 'duration': 11.0, 'unit': '100985', 'startDate': '/Date(1779033600000)/', 'endDate': '/Date(1779119999000)/', 'courseProvider': 'NTUC LearningHub', 'pass': 'Failed', '__metadata': {'uri': "Background_TrainingRecords(backgroundElementId=0,userId='2350490')"}}]
+
+SF
+
+{'key': 'Background_TrainingRecords/backgroundElementId=535654,Background_TrainingRecords/userId=2350490', 'status': 'OK', 'editStatus': None, 'message': None, 'index': 0, 'httpCode': 200, 'inlineResults': None}

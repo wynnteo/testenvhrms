@@ -143,6 +143,31 @@
         </tr>
       </tbody>
     </table>
+    <div id="emp-pager"></div>
+  </div>
+
+  <!-- Training records table -->
+  <div class="card">
+    <h2 id="training-heading">🎓 Learning Records</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee ID</th>
+          <th>Course Title</th>
+          <th>Status</th>
+          <th>Result</th>
+          <th>Duration</th>
+          <th>Reference ID</th>
+          <th>Received At</th>
+        </tr>
+      </thead>
+      <tbody id="training-tbody">
+        <tr class="loading-row">
+          <td colspan="7"><span class="spinner"></span> Loading learning records…</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="training-pager"></div>
   </div>
 
   <!-- Endpoint info -->
@@ -171,28 +196,35 @@
 
   const USERID_START = 9990001;
 
-  // Mirrors the server-side logic in api/admin/action.js so the field can
-  // be pre-filled before the user submits the form.
-  function suggestNextUserId(employees) {
-    let max = null;
-    for (const emp of employees) {
-      const n = parseInt(emp.userId, 10);
-      if (!isNaN(n) && (max === null || n > max)) max = n;
-    }
-    return max === null ? String(USERID_START) : String(max + 1);
+  function pagerHTML(page, totalPages, gotoFnName) {
+    if (totalPages <= 1) return "";
+    return `
+      <div style="display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-top:14px;">
+        <button class="btn btn-sm" ${page <= 1 ? "disabled" : ""} onclick="${gotoFnName}(${page - 1})">‹ Prev</button>
+        <span style="font-size:0.82rem;color:#4a5568;">Page ${page} of ${totalPages}</span>
+        <button class="btn btn-sm" ${page >= totalPages ? "disabled" : ""} onclick="${gotoFnName}(${page + 1})">Next ›</button>
+      </div>`;
   }
 
-  let lastKnownEmployees = [];
+  // ---------- Employees ----------
+  const EMP_PAGE_SIZE = 20;
+  let empPage = 1;
+  let nextSuggestedUserId = String(USERID_START);
 
-  async function loadEmployees() {
+  async function loadEmployees(page = 1) {
+    empPage = page;
+    document.getElementById("emp-tbody").innerHTML =
+      `<tr class="loading-row"><td colspan="6"><span class="spinner"></span> Loading employees…</td></tr>`;
     try {
-      const res = await fetch("/api/admin/employees");
+      const res = await fetch(`/api/admin/employees?page=${page}&pageSize=${EMP_PAGE_SIZE}`);
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
-      lastKnownEmployees = data.employees;
+      nextSuggestedUserId = data.nextUserId;
       renderTable(data.employees);
       document.getElementById("table-heading").textContent =
-        `👥 Employee List (${data.employees.length} records)`;
+        `👥 Employee List (${data.total} total)`;
+      document.getElementById("emp-pager").innerHTML =
+        pagerHTML(data.page, data.totalPages, "goToEmployeesPage");
       fillSuggestedUserId();
     } catch (err) {
       document.getElementById("emp-tbody").innerHTML =
@@ -200,13 +232,15 @@
     }
   }
 
+  function goToEmployeesPage(page) {
+    loadEmployees(page);
+  }
+
   function fillSuggestedUserId() {
     const field = document.getElementById("f-userId");
-    const suggested = suggestNextUserId(lastKnownEmployees);
-    console.log(`[userId suggestion] scanned ${lastKnownEmployees.length} employees, suggesting ${suggested}`);
     // Only overwrite if the user hasn't typed their own value.
     if (!field.dataset.userEdited) {
-      field.value = suggested;
+      field.value = nextSuggestedUserId;
     }
   }
 
@@ -250,7 +284,7 @@
       const data = await res.json();
       if (!data.ok) throw new Error(data.error);
       flash("" + data.message);
-      await loadEmployees();
+      await loadEmployees(empPage);
     } catch (err) {
       flash("❌ " + err.message, false);
     }
@@ -295,11 +329,58 @@
     }
   }
 
+  // ---------- Training Records ----------
+  const TRAINING_PAGE_SIZE = 20;
+  let trainingPage = 1;
+
+  async function loadTrainingRecords(page = 1) {
+    trainingPage = page;
+    document.getElementById("training-tbody").innerHTML =
+      `<tr class="loading-row"><td colspan="7"><span class="spinner"></span> Loading learning records…</td></tr>`;
+    try {
+      const res = await fetch(`/api/admin/trainingrecords?page=${page}&pageSize=${TRAINING_PAGE_SIZE}`);
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error);
+      renderTrainingTable(data.records);
+      document.getElementById("training-heading").textContent =
+        `🎓 Learning Records (${data.total} total)`;
+      document.getElementById("training-pager").innerHTML =
+        pagerHTML(data.page, data.totalPages, "goToTrainingPage");
+    } catch (err) {
+      document.getElementById("training-tbody").innerHTML =
+        `<tr class="loading-row"><td colspan="7" style="color:#e53e3e">Error: ${err.message}</td></tr>`;
+    }
+  }
+
+  function goToTrainingPage(page) {
+    loadTrainingRecords(page);
+  }
+
+  function renderTrainingTable(records) {
+    const tbody = document.getElementById("training-tbody");
+    if (!records.length) {
+      tbody.innerHTML = `<tr class="loading-row"><td colspan="7">No learning records yet.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = records.map(rec => `
+      <tr>
+        <td><code>${rec.employeeId ?? ""}</code></td>
+        <td>${rec.courseTitle ?? ""}</td>
+        <td>${rec.status ?? ""}</td>
+        <td>${rec.result ?? ""}</td>
+        <td style="color:#718096">${rec.duration ?? ""} ${rec.unit ?? ""}</td>
+        <td style="color:#718096">${rec.referenceId ?? ""}</td>
+        <td style="color:#718096">${rec.receivedAt ?? ""}</td>
+      </tr>
+    `).join("");
+  }
+
   // Load on page ready
   document.getElementById("f-userId").addEventListener("input", (e) => {
     e.target.dataset.userEdited = "true";
   });
   loadEmployees();
+  loadTrainingRecords();
 </script>
 </body>
 </html>
