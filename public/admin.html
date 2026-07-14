@@ -172,20 +172,37 @@
 
   <!-- Endpoint info -->
   <div class="card">
-    <div class="endpoint-box" id="endpoint-box">Loading…</div>
-    <br>
-    <p style="font-size:0.82rem;color:#718096;">
+    <h2>🔌 API Endpoints</h2>
+
+    <p style="font-size:0.82rem;font-weight:600;color:#4a5568;margin-bottom:6px;">
+      OData User Feed <span style="color:#718096;font-weight:400;">(GET)</span>
+    </p>
+    <div class="endpoint-box" id="endpoint-box-odata">Loading…</div>
+    <p style="font-size:0.82rem;color:#718096;margin:8px 0 20px;">
       Params: <code>$top</code> &nbsp;<code>$skip</code> &nbsp;
       <code>modifiedfrom</code> &nbsp;<code>modifiedto</code>
+    </p>
+
+    <p style="font-size:0.82rem;font-weight:600;color:#4a5568;margin-bottom:6px;">
+      Learning Records <span style="color:#718096;font-weight:400;">(POST)</span>
+    </p>
+    <div class="endpoint-box" id="endpoint-box-learning">Loading…</div>
+    <p style="font-size:0.82rem;color:#718096;margin-top:8px;">
+      Body: <code>{ "records": [ { "employeeId", "elementId", "duration", "referenceId", ... } ] }</code><br>
+      Validates <code>employeeId</code>, <code>elementId</code> (required) and <code>duration</code>
+      (must be numeric) per record — mirrors real SF error responses.
     </p>
   </div>
 
 </main>
 
 <script>
-  // Show endpoint URL
-  document.getElementById("endpoint-box").textContent =
-    `GET ${location.origin}/api/User?$top=50&$skip=0&modifiedfrom=2026-01-01&modifiedto=2026-05-31\n\n`;
+  // Show endpoint URLs
+  document.getElementById("endpoint-box-odata").textContent =
+    `GET ${location.origin}/api/User?$top=50&$skip=0&modifiedfrom=2026-01-01&modifiedto=2026-05-31`;
+
+  document.getElementById("endpoint-box-learning").textContent =
+    `POST ${location.origin}/hrms/hrmshub/api/v1/hrms/company/LHUB/learningrecords`;
 
   function flash(msg, ok = true) {
     const el = document.getElementById("flash");
