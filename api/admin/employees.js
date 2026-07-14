@@ -21,9 +21,12 @@ export default async function handler(req, res) {
   try {
     const { employees } = await readEmployees();
 
-    // Newest activity first so pagination surfaces recent changes.
+    function safeTime(value) {
+      const t = new Date(value).getTime();
+      return isNaN(t) ? 0 : t;
+    }
     const sorted = [...employees].sort(
-      (a, b) => new Date(b.lastModified) - new Date(a.lastModified)
+      (a, b) => safeTime(b.lastModified) - safeTime(a.lastModified)
     );
 
     const page     = Math.max(1, parseInt(req.query.page, 10) || 1);
