@@ -328,8 +328,8 @@
     "firstName": "Kunarani D/o",
     "lastName": "KUMARES",
     "email": "dummy@successfactors.com",
-    "status": "t",
-    "lastModified": "2026-05-26T23:05:47",
+    "status": "f",
+    "lastModified": "2026-08-06T02:31:47",
     "custom05": "NTUC LearningHub Pte Ltd (L100)"
   },
   {
